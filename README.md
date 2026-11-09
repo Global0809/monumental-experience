@@ -23,15 +23,18 @@ Reduced-motion mode provides a normal entrance button and still decorative video
 
 ## Files
 
-- `dist/`: editable production HTML, authored JavaScript modules, styles, and local assets.
+- `source/`: editable production HTML, authored JavaScript modules, styles, and local assets.
 - `source-routes/`: individual gallery detail HTML entries.
 - `scripts/build.mjs`: creates `out/` using the referenced local asset graph and normal HTML route directories.
+- `worker/index.js`: serves media byte ranges for Safari/iOS while ordinary assets use native static hosting.
+- `scripts/prepare-hosting.mjs`: creates the native `dist/client` and `dist/server` hosting artifact. Media URLs remain unchanged.
 - `scripts/check.mjs`: JavaScript syntax, language metadata, zoom, and content checks.
+- `scripts/check-media-ranges.mjs`: verifies media ranges, validators, missing files, and HEAD responses.
 - `scripts/serve.mjs`: local server with correct media MIME types and byte-range support.
 - `.openai/hosting.json`: Site identity and deployment configuration.
-- `dist/assets/media-sources.json`: official image, artwork, and link provenance.
-- `dist/assets/audio/playlist.json`: preview track names, sources, and chapter timings.
-- `dist/assets/media/video-sources.json`: official preview sources and the video-loop rendering manifest.
+- `source/assets/media-sources.json`: official image, artwork, and link provenance.
+- `source/assets/audio/playlist.json`: preview track names, sources, and chapter timings.
+- `source/assets/media/video-sources.json`: official preview sources and the video-loop rendering manifest.
 
 This package contains the adapted production modules and assets. It does not reconstruct unpublished source files from the original author's project.
 

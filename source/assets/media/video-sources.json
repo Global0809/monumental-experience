@@ -195,7 +195,7 @@
   "deliverables": [
     {
       "file": "crt-0.mobile.mp4",
-      "bytes": 453223,
+      "bytes": 1121150,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -203,8 +203,8 @@
           {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 512,
-            "height": 144,
+            "width": 768,
+            "height": 216,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "24/1",
             "duration": "16.000000"
@@ -239,7 +239,7 @@
     },
     {
       "file": "crt-1.mobile.mp4",
-      "bytes": 423447,
+      "bytes": 1070615,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -247,8 +247,8 @@
           {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 512,
-            "height": 144,
+            "width": 768,
+            "height": 216,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "24/1",
             "duration": "16.000000"
@@ -283,7 +283,7 @@
     },
     {
       "file": "crt-2.mobile.mp4",
-      "bytes": 470667,
+      "bytes": 1185506,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -291,8 +291,8 @@
           {
             "codec_name": "h264",
             "codec_type": "video",
-            "width": 512,
-            "height": 144,
+            "width": 768,
+            "height": 216,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "24/1",
             "duration": "16.000000"
@@ -369,5 +369,6 @@
         }
       }
     }
-  ]
+  ],
+  "verifiedAt": "2026-11-09T03:24:35.613Z"
 }

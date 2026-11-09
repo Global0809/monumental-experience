@@ -8,8 +8,10 @@ Three-dimensional lettering, the header wordmark, DJ sign, release posters, icon
 
 The following bitmap illustrations were adapted with the built-in ImageGen tool: the tunnel graffiti atlas, contact graffiti atlas, alien sticker sheet, and branded decal regions on the DJ's clothing/headphones/desk/speakers and contact boxes. Their direction was to preserve the reference's punk spray-paint style, UV layout, materials, and composition while replacing Hoyo and Spanish venue copy with The Weeknd/XO identity and English era motifs. The artist photographs and performance footage are sourced media, rather than generated likenesses.
 
-The exact saved tunnel-atlas prompt is in `design-notes/tunnel-atlas-prompt.txt`. All final consumed assets are inside `dist/`; no runtime asset depends on a generation cache or temporary directory.
+The exact saved tunnel-atlas prompt is in `design-notes/tunnel-atlas-prompt.txt`. All final consumed assets are inside `source/`; no runtime asset depends on a generation cache or temporary directory.
 
 The full illustrated posters belong to the 3D stands. The Music page uses clean official cover artwork with live captions to prevent overlapping typography.
+
+The My Dear Melancholy archive also contains two full-aspect frames from the official Call Out My Name preview. Their preview timestamps and source URLs are recorded in the image manifest. Packaged portrait and album filenames are mapped explicitly to their official source entries. Video dimensions and byte sizes are verified against the final delivered files.
 
 This is an independent creative concept. Artist names, photography, artwork, and recordings belong to their respective owners.

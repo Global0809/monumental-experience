@@ -7656,6 +7656,12 @@ var Oa = () => structuredClone(Ea),
         for (let e of this.mallas.values()) e.dispose();
         (this.mallas.clear(), this.anclas.clear());
         for (let e of this.geometrias) e.dispose();
+        // These maps belong to this per-home debris model, shared by its instances.
+        const textures = new Set();
+        for (let material of this.materiales)
+          for (let value of Object.values(material))
+            if (value instanceof c) textures.add(value);
+        for (let texture of textures) texture.dispose();
         for (let e of this.materiales) e.dispose();
         ((this.geometrias.length = 0),
           (this.materiales.length = 0),
@@ -12402,6 +12408,8 @@ var Es = class extends xt {
       (this.muroContactoActive = !1),
       this.background?.soltarPuntuales(zt),
       this.background?.bloom.quitarFuente(Ot),
+      // Release the source only after both event and contact marquee consumers.
+      this.marquesinaGltf?.then((gltf) => Ds(gltf.scene)).catch(() => {}),
       (this.marquesinaGltf = null),
       (this.pintadasAtlas = null),
       (this.pintadasLienzo = null),

@@ -6,7 +6,9 @@
       "albumUrl": "https://music.apple.com/us/album/house-of-balloons-original/1558941834?uo=4",
       "file": "house-of-balloons-original.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/18/fa/3118fab0-90ea-2ae5-cf6c-bc64054ab9e3/21UMGIM21449.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 390003
+      "bytes": 390003,
+      "localAsset": "/assets/albums/house-of-balloons-original.jpg",
+      "deliveredBytes": 138614
     },
     {
       "name": "Thursday (Original)",
@@ -14,7 +16,9 @@
       "albumUrl": "https://music.apple.com/us/album/thursday-original/1579255902?uo=4",
       "file": "thursday-original.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/42/e0/1a/42e01a95-6558-37d5-8527-bcce7072279e/21UMGIM61407.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 362536
+      "bytes": 362536,
+      "localAsset": "/assets/albums/thursday-original.jpg",
+      "deliveredBytes": 140766
     },
     {
       "name": "Trilogy",
@@ -22,7 +26,9 @@
       "albumUrl": "https://music.apple.com/us/album/trilogy/1714908584?uo=4",
       "file": "trilogy.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/d5/13/66d513dd-3cb0-b86b-4d11-1fbab2e6a639/12UMGIM54989.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 116545
+      "bytes": 116545,
+      "localAsset": "/assets/albums/trilogy.jpg",
+      "deliveredBytes": 40532
     },
     {
       "name": "Kiss Land",
@@ -31,7 +37,9 @@
       "file": "kiss-land.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/1200x1200bb.jpg",
       "bytes": 381496,
-      "releaseDateSource": "https://www.universalmusic.ca/2013/07/22/the-weeknds-kiss-land-to-arrive-september-10/"
+      "releaseDateSource": "https://www.universalmusic.ca/2013/07/22/the-weeknds-kiss-land-to-arrive-september-10/",
+      "localAsset": "/assets/albums/kiss-land.jpg",
+      "deliveredBytes": 117342
     },
     {
       "name": "Beauty Behind the Madness",
@@ -39,7 +47,9 @@
       "albumUrl": "https://music.apple.com/us/album/beauty-behind-the-madness/1440826239?uo=4",
       "file": "beauty-behind-the-madness.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 381641
+      "bytes": 381641,
+      "localAsset": "/assets/albums/beauty-behind-the-madness.jpg",
+      "deliveredBytes": 129847
     },
     {
       "name": "Starboy",
@@ -47,7 +57,9 @@
       "albumUrl": "https://music.apple.com/us/album/starboy/1440871397?uo=4",
       "file": "starboy.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 509392
+      "bytes": 509392,
+      "localAsset": "/assets/albums/starboy.jpg",
+      "deliveredBytes": 178410
     },
     {
       "name": "My Dear Melancholy,",
@@ -55,7 +67,9 @@
       "albumUrl": "https://music.apple.com/us/album/my-dear-melancholy/1363309866?uo=4",
       "file": "my-dear-melancholy.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/aa/b4/2aaab42a-a4cb-a600-4a25-d78961495960/18UMGIM17204.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 499698
+      "bytes": 499698,
+      "localAsset": "/assets/albums/my-dear-melancholy.jpg",
+      "deliveredBytes": 185006
     },
     {
       "name": "After Hours",
@@ -63,7 +77,9 @@
       "albumUrl": "https://music.apple.com/us/album/after-hours/1499378108?uo=4",
       "file": "after-hours.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 471529
+      "bytes": 471529,
+      "localAsset": "/assets/albums/after-hours.jpg",
+      "deliveredBytes": 130214
     },
     {
       "name": "Dawn FM",
@@ -71,7 +87,9 @@
       "albumUrl": "https://music.apple.com/us/album/dawn-fm/1603171516?uo=4",
       "file": "dawn-fm.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/22/a9/2f22a9a6-5af1-5846-a44e-ba016724ed69/21UM1IM58860.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 322931
+      "bytes": 322931,
+      "localAsset": "/assets/albums/dawn-fm.jpg",
+      "deliveredBytes": 113507
     },
     {
       "name": "Hurry Up Tomorrow",
@@ -79,7 +97,9 @@
       "albumUrl": "https://music.apple.com/us/album/hurry-up-tomorrow/1793654348?uo=4",
       "file": "hurry-up-tomorrow.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/9b/6e/499b6e2d-648f-1a4e-31b8-fb7f06a8123c/25UMGIM09490.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 370274
+      "bytes": 370274,
+      "localAsset": "/assets/albums/hurry-up-tomorrow.jpg",
+      "deliveredBytes": 107014
     },
     {
       "name": "The Highlights",
@@ -87,7 +107,9 @@
       "albumUrl": "https://music.apple.com/us/album/the-highlights/1550875218?uo=4",
       "file": "the-highlights.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/e9/95/dce995ab-5287-cba4-4966-46d16bf1c072/21UMGIM06667.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 230435
+      "bytes": 230435,
+      "localAsset": "/assets/albums/the-highlights.jpg",
+      "deliveredBytes": 89484
     },
     {
       "name": "Live At SoFi Stadium",
@@ -95,7 +117,9 @@
       "albumUrl": "https://music.apple.com/us/album/live-at-sofi-stadium/1674298155?uo=4",
       "file": "live-at-sofi-stadium.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/8e/da/ad8eda90-c2f5-7488-042d-4b09bd2c9c05/23UMGIM20832.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 241755
+      "bytes": 241755,
+      "localAsset": "/assets/albums/live-at-sofi-stadium.jpg",
+      "deliveredBytes": 74388
     },
     {
       "name": "Echoes Of Silence (Original)",
@@ -103,7 +127,9 @@
       "albumUrl": "https://music.apple.com/us/album/echoes-of-silence-original/1598758840?uo=4",
       "file": "echoes-of-silence-original.jpg",
       "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/57/34/ec573456-7d5a-4a48-018c-2b252ec2d825/21UM1IM44288.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 209638
+      "bytes": 209638,
+      "localAsset": "/assets/albums/echoes-of-silence-original.jpg",
+      "deliveredBytes": 78685
     }
   ],
   "press": [
@@ -115,7 +141,9 @@
       "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
       "copyright": "Eddy Chen",
       "width": 2431,
-      "height": 3000
+      "height": 3000,
+      "localAsset": "/assets/portraits/hurry-up-tomorrow-tilt.webp",
+      "deliveredBytes": 80892
     },
     {
       "file": "598751-pressefoto-hurry-up-tomorrow-2024.jpg",
@@ -125,7 +153,9 @@
       "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
       "copyright": "Eddy Chen",
       "width": 3000,
-      "height": 4000
+      "height": 4000,
+      "localAsset": "/assets/portraits/hurry-up-tomorrow-red.webp",
+      "deliveredBytes": 140448
     },
     {
       "file": "598750-pressefoto-hurry-up-tomorrow-2024.jpg",
@@ -135,7 +165,9 @@
       "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
       "copyright": "Eddy Chen",
       "width": 3024,
-      "height": 4032
+      "height": 4032,
+      "localAsset": "/assets/portraits/hurry-up-tomorrow-side.webp",
+      "deliveredBytes": 41854
     },
     {
       "file": "598749-hurry-up-tomorrow-2024.jpg",
@@ -145,7 +177,9 @@
       "title": "\"Hurry Up Tomorrow\" (2024)",
       "copyright": "Eddy Chen",
       "width": 4000,
-      "height": 5333
+      "height": 5333,
+      "localAsset": "/assets/portraits/hurry-up-tomorrow-tank.webp",
+      "deliveredBytes": 119354
     },
     {
       "file": "573848-the-weeknd-the-idol-cover-2023.jpg",
@@ -205,7 +239,9 @@
       "title": "The Weeknd 2022",
       "copyright": "Brian Ziff",
       "width": 7387,
-      "height": 4314
+      "height": 4314,
+      "localAsset": "/assets/portraits/dawn-fm-wide.webp",
+      "deliveredBytes": 42284
     },
     {
       "file": "547777-the-weeknd-2022.jpg",
@@ -225,7 +261,9 @@
       "title": "The Weeknd 2020",
       "copyright": "Anton Tammi",
       "width": 2257,
-      "height": 2805
+      "height": 2805,
+      "localAsset": "/assets/portraits/after-hours-red.webp",
+      "deliveredBytes": 152846
     },
     {
       "file": "495853-the-weeknd-2020.jpg",
@@ -235,7 +273,9 @@
       "title": "The Weeknd 2020",
       "copyright": "Anton Tammi",
       "width": 2114,
-      "height": 2601
+      "height": 2601,
+      "localAsset": "/assets/portraits/after-hours-smile.webp",
+      "deliveredBytes": 249154
     },
     {
       "file": "414994-the-weeknd-2016-starboy-cover.jpg",
@@ -256,6 +296,17 @@
       "copyright": "Universal Music ",
       "width": 4500,
       "height": 4500
+    },
+    {
+      "file": "605949-the-weeknd.jpg",
+      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
+      "imageUrl": "https://images.universal-music.de/img/assets/605/605949/195/the-weeknd.jpg",
+      "title": "The Weeknd artist portrait",
+      "copyright": null,
+      "width": 1912,
+      "height": 2867,
+      "localAsset": "/assets/portraits/the-weeknd.webp",
+      "deliveredBytes": 151284
     }
   ],
   "links": {
@@ -307,5 +358,32 @@
       "source": "https://music.apple.com/us/music-video/timeless/1771533314?uo=4",
       "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video211/v4/6c/ce/87/6cce87fd-d193-6687-9a3f-c098ddb10881/mzvf_13176339109459711453.1920w.h264lc.U.p.m4v"
     }
-  ]
+  ],
+  "videoStills": [
+    {
+      "previewSecond": 3.5,
+      "caption": "Call Out My Name · blue hour",
+      "albumId": "my-dear-melancholy",
+      "sourcePage": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v",
+      "kind": "frame from official Apple music-video preview",
+      "width": 1440,
+      "height": 808,
+      "bytes": 70510,
+      "localAsset": "/assets/stills/call-out-my-name-blue.webp"
+    },
+    {
+      "previewSecond": 16.5,
+      "caption": "Call Out My Name · the flock",
+      "albumId": "my-dear-melancholy",
+      "sourcePage": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v",
+      "kind": "frame from official Apple music-video preview",
+      "width": 1440,
+      "height": 808,
+      "bytes": 75154,
+      "localAsset": "/assets/stills/call-out-my-name-flock.webp"
+    }
+  ],
+  "provenanceFormatNote": "The file and bytes fields describe source downloads. localAsset and deliveredBytes identify packaged derivatives. A null copyright means no photographer credit was supplied in the parsed official entry."
 }

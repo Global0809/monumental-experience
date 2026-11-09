@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
-const source=path.join(root,'dist'),target=path.join(root,'out');
+const source=path.join(root,'source'),target=path.join(root,'out');
 fs.mkdirSync(target,{recursive:true});
 const visited=new Set(),missing=new Set(),files=[];
 function copy(relative,destination=relative){
@@ -31,3 +31,4 @@ for(const file of fs.readdirSync(path.join(source,'draco')))copy('draco/'+file);
 if(missing.size)throw Error('Missing local assets:\n'+[...missing].join('\n'));
 fs.writeFileSync(path.join(root,'.openai/build-report.json'),JSON.stringify({files:files.length,bytes:files.reduce((n,f)=>n+f.bytes,0),assets:files},null,2));
 console.log(`Built ${files.length} files (${(files.reduce((n,f)=>n+f.bytes,0)/1048576).toFixed(2)} MiB). All internal routes have HTML entry points.`);
+await import('./prepare-hosting.mjs');
