@@ -17,7 +17,7 @@ Open http://127.0.0.1:4175 . Use an HTTP server; opening index.html directly wit
 
 Press the illuminated 3D button to enter with sound, or choose **Enter without sound**. Scroll or swipe through the tunnel. The menu opens Music, Visuals, and Connect. Album stands open official listening destinations; the image sphere opens the visual archive. Gallery detail pages retain the grid-size control and full-screen image viewer, with arrow keys and Escape.
 
-The footer contains music play/pause, previous/next preview, mute, and volume controls. Playback uses eight locally served 30-second official Apple Music excerpts.
+The desktop footer contains music play/pause, previous/next preview, mute, and volume controls. Portrait mobile layouts retain the original compact previous/play/next controls. Playback uses eight locally served 30-second official Apple Music excerpts, with metadata preloaded before entry.
 
 Reduced-motion mode provides a normal entrance button and still decorative video frames. If the browser cannot create the 3D scene, the site offers a lighter edition at `/discover.html`. That edition also works without JavaScript.
 
@@ -31,6 +31,7 @@ Reduced-motion mode provides a normal entrance button and still decorative video
 - `.openai/hosting.json`: Site identity and deployment configuration.
 - `dist/assets/media-sources.json`: official image, artwork, and link provenance.
 - `dist/assets/audio/playlist.json`: preview track names, sources, and chapter timings.
+- `dist/assets/media/video-sources.json`: official preview sources and the video-loop rendering manifest.
 
 This package contains the adapted production modules and assets. It does not reconstruct unpublished source files from the original author's project.
 

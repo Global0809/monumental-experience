@@ -1,0 +1,373 @@
+{
+  "generatedAt": "2026-11-09T02:24:13.199Z",
+  "sources": [
+    {
+      "title": "Blinding Lights",
+      "source": "https://music.apple.com/us/music-video/blinding-lights/1495409676?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/6a/e8/e0/6ae8e039-4855-c1ec-ab87-1a349010859a/mzvf_5162835731448030244.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Take My Breath",
+      "source": "https://music.apple.com/us/music-video/take-my-breath/1579734725?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video115/v4/bd/7b/8f/bd7b8f77-1536-bea5-7da9-cc78f9f61efd/mzvf_10109716172756164772.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Save Your Tears (Main)",
+      "source": "https://music.apple.com/us/music-video/save-your-tears-main-remix/1564340447?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video126/v4/29/18/ff/2918ff05-1a1e-f2e5-568b-ec36721d3d81/mzvf_3547631354101689958.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "After Hours",
+      "source": "https://music.apple.com/us/music-video/after-hours-short-film/1501423215?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video124/v4/91/c1/a5/91c1a514-dd90-d534-afd0-76a567121fc9/mzvf_12606092371926038175.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Call Out My Name",
+      "source": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Out of Time",
+      "source": "https://music.apple.com/us/music-video/out-of-time/1617725277?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video112/v4/13/c0/87/13c08773-706e-941f-7400-212480be189d/mzvf_16083973166063577679.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Timeless",
+      "source": "https://music.apple.com/us/music-video/timeless/1771533314?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video211/v4/6c/ce/87/6cce87fd-d193-6687-9a3f-c098ddb10881/mzvf_13176339109459711453.1920w.h264lc.U.p.m4v"
+    }
+  ],
+  "crt": {
+    "orders": [
+      [
+        "Blinding Lights",
+        "Take My Breath",
+        "Save Your Tears (Main)",
+        "After Hours",
+        "Call Out My Name",
+        "Out of Time",
+        "Timeless",
+        "Blinding Lights"
+      ],
+      [
+        "After Hours",
+        "Timeless",
+        "Blinding Lights",
+        "Call Out My Name",
+        "Take My Breath",
+        "Save Your Tears (Main)",
+        "Out of Time",
+        "After Hours"
+      ],
+      [
+        "Timeless",
+        "Call Out My Name",
+        "After Hours",
+        "Take My Breath",
+        "Out of Time",
+        "Blinding Lights",
+        "Save Your Tears (Main)",
+        "Timeless"
+      ]
+    ],
+    "offsets": [
+      [
+        0,
+        3,
+        5,
+        10,
+        7,
+        12,
+        5,
+        10
+      ],
+      [
+        7,
+        1,
+        12,
+        0,
+        10,
+        2,
+        6,
+        11
+      ],
+      [
+        4,
+        10,
+        0,
+        12,
+        2,
+        5,
+        10,
+        12
+      ]
+    ],
+    "layout": {
+      "columns": 4,
+      "rows": 2,
+      "cellWidth": 256,
+      "cellHeight": 144
+    },
+    "duration": 16
+  },
+  "projection": {
+    "source": "After Hours",
+    "start": 12,
+    "duration": 16,
+    "portraitCrop": "center",
+    "portrait": {
+      "source": "After Hours",
+      "start": 6,
+      "duration": 16,
+      "crop": "horizontal artist tracking, full vertical frame",
+      "centersAtSourceSeconds": [
+        {
+          "sourceTime": 6,
+          "xNormalized": 0.465625
+        },
+        {
+          "sourceTime": 7,
+          "xNormalized": 0.39375
+        },
+        {
+          "sourceTime": 8,
+          "xNormalized": 0.4125
+        },
+        {
+          "sourceTime": 9,
+          "xNormalized": 0.4125
+        },
+        {
+          "sourceTime": 10,
+          "xNormalized": 0.4125
+        },
+        {
+          "sourceTime": 11,
+          "xNormalized": 0.4375
+        },
+        {
+          "sourceTime": 12,
+          "xNormalized": 0.459375
+        },
+        {
+          "sourceTime": 13,
+          "xNormalized": 0.434375
+        },
+        {
+          "sourceTime": 14,
+          "xNormalized": 0.365625
+        },
+        {
+          "sourceTime": 15,
+          "xNormalized": 0.390625
+        },
+        {
+          "sourceTime": 16,
+          "xNormalized": 0.48125
+        },
+        {
+          "sourceTime": 17,
+          "xNormalized": 0.51875
+        },
+        {
+          "sourceTime": 18,
+          "xNormalized": 0.565625
+        },
+        {
+          "sourceTime": 19,
+          "xNormalized": 0.5
+        },
+        {
+          "sourceTime": 20,
+          "xNormalized": 0.375
+        },
+        {
+          "sourceTime": 21,
+          "xNormalized": 0.38125
+        },
+        {
+          "sourceTime": 22,
+          "xNormalized": 0.40625
+        }
+      ]
+    }
+  },
+  "deliverables": [
+    {
+      "file": "crt-0.mobile.mp4",
+      "bytes": 453223,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 512,
+            "height": 144,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "crt-0.mp4",
+      "bytes": 1388279,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1024,
+            "height": 288,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "crt-1.mobile.mp4",
+      "bytes": 423447,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 512,
+            "height": 144,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "crt-1.mp4",
+      "bytes": 1314819,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1024,
+            "height": 288,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "crt-2.mobile.mp4",
+      "bytes": 470667,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 512,
+            "height": 144,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "crt-2.mp4",
+      "bytes": 1462472,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1024,
+            "height": 288,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "projection-landscape.mp4",
+      "bytes": 1912298,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    },
+    {
+      "file": "projection-portrait.mp4",
+      "bytes": 1070337,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 540,
+            "height": 960,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "duration": "16.000000"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      }
+    }
+  ]
+}

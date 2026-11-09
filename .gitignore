@@ -3,6 +3,8 @@ out/
 .openai/build-report.json
 dist/*.js
 dist/*.css
+!dist/experience-accessibility.js
+!dist/experience-accessibility.css
 dist/*.glb
 dist/*.glb.json
 dist/*.mp3

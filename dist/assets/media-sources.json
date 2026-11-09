@@ -270,5 +270,42 @@
     "facebook": "https://www.facebook.com/theweeknd",
     "appleMusic": "https://music.apple.com/us/artist/the-weeknd/479756766",
     "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
-  }
+  },
+  "musicVideoPreviews": [
+    {
+      "title": "Blinding Lights",
+      "source": "https://music.apple.com/us/music-video/blinding-lights/1495409676?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/6a/e8/e0/6ae8e039-4855-c1ec-ab87-1a349010859a/mzvf_5162835731448030244.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Take My Breath",
+      "source": "https://music.apple.com/us/music-video/take-my-breath/1579734725?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video115/v4/bd/7b/8f/bd7b8f77-1536-bea5-7da9-cc78f9f61efd/mzvf_10109716172756164772.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Save Your Tears (Main)",
+      "source": "https://music.apple.com/us/music-video/save-your-tears-main-remix/1564340447?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video126/v4/29/18/ff/2918ff05-1a1e-f2e5-568b-ec36721d3d81/mzvf_3547631354101689958.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "After Hours",
+      "source": "https://music.apple.com/us/music-video/after-hours-short-film/1501423215?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video124/v4/91/c1/a5/91c1a514-dd90-d534-afd0-76a567121fc9/mzvf_12606092371926038175.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Call Out My Name",
+      "source": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Out of Time",
+      "source": "https://music.apple.com/us/music-video/out-of-time/1617725277?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video112/v4/13/c0/87/13c08773-706e-941f-7400-212480be189d/mzvf_16083973166063577679.1920w.h264lc.U.p.m4v"
+    },
+    {
+      "title": "Timeless",
+      "source": "https://music.apple.com/us/music-video/timeless/1771533314?uo=4",
+      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video211/v4/6c/ce/87/6cce87fd-d193-6687-9a3f-c098ddb10881/mzvf_13176339109459711453.1920w.h264lc.U.p.m4v"
+    }
+  ]
 }

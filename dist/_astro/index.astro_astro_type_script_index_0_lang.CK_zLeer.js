@@ -190,21 +190,21 @@ function weekndDecorativePlayback(video, active) {
     };
     state.afterSeek = () => { if (weekndVideoMotion.matches) video.pause(); };
     state.release = () => {
-      if (video.getAttribute(`src`)) return;
       weekndVideoMotion.removeEventListener(`change`, state.apply);
       video.removeEventListener(`loadeddata`, state.apply);
       video.removeEventListener(`seeked`, state.afterSeek);
-      video.removeEventListener(`emptied`, state.release);
       weekndVideoStates.delete(video);
     };
     weekndVideoStates.set(video, state);
     weekndVideoMotion.addEventListener(`change`, state.apply);
     video.addEventListener(`loadeddata`, state.apply);
     video.addEventListener(`seeked`, state.afterSeek);
-    video.addEventListener(`emptied`, state.release);
   }
   state.active = active;
   state.apply();
+}
+function weekndReleaseDecorativeVideo(video) {
+  weekndVideoStates.get(video)?.release();
 }
 var on = class {
     onSinSonido;
@@ -1117,9 +1117,9 @@ function Bn(e = zn) {
 var Vn = `/assets/media/crt-0.mp4`,
   Hn = `/assets/media/crt-1.mp4`,
   Un = `/assets/media/crt-2.mp4`,
-  Wn = `/assets/media/crt-0.mp4`,
-  Gn = `/assets/media/crt-1.mp4`,
-  Kn = `/assets/media/crt-2.mp4`,
+  Wn = `/assets/media/crt-0.mobile.mp4`,
+  Gn = `/assets/media/crt-1.mobile.mp4`,
+  Kn = `/assets/media/crt-2.mobile.mp4`,
   qn = Object.assign({
     "../../../assets/videos_teles_mosaico/mosaico-a.mp4": Vn,
     "../../../assets/videos_teles_mosaico/mosaico-b.mp4": Hn,
@@ -1537,7 +1537,7 @@ var sr = class t {
         this.texturas.forEach((e) => e?.dispose()),
         (this.texturas.length = 0),
         this.videos.forEach((e) => {
-          (e.pause(), e.removeAttribute(`src`), e.load());
+          (weekndReleaseDecorativeVideo(e), e.pause(), e.removeAttribute(`src`), e.load());
         }),
         (this.videos.length = 0),
         this.limpiar(!0),
@@ -4536,7 +4536,13 @@ var Mi = 1e3,
       }
       this.place();
     }
+    reducedPlayback = weekndVideoMotion.matches;
     update(e) {
+      const reduced = weekndVideoMotion.matches;
+      if (reduced !== this.reducedPlayback) {
+        this.reducedPlayback = reduced;
+        this.reproducir();
+      }
       if (!this.active || !this.config.visible) {
         this.motion.reset();
         return;
@@ -4644,7 +4650,7 @@ var Mi = 1e3,
         this.objetosBlob.forEach((e) => URL.revokeObjectURL(e)),
         (this.objetosBlob.length = 0));
       for (let { video: e, textura: t } of this.fuentes.values())
-        (t.dispose(), e.pause(), e.removeAttribute(`src`), e.load());
+        (weekndReleaseDecorativeVideo(e), t.dispose(), e.pause(), e.removeAttribute(`src`), e.load());
       (this.fuentes.clear(),
         (this.fuente = null),
         this.malla.geometry.dispose(),
@@ -4776,7 +4782,8 @@ var Mi = 1e3,
       for (let [t, n] of this.fuentes)
         if (!(n === e || !n.preparada)) {
           if (
-            (n.textura.dispose(),
+            (weekndReleaseDecorativeVideo(n.video),
+            n.textura.dispose(),
             n.video.pause(),
             n.video.removeAttribute(`src`),
             n.video.load(),
@@ -11004,17 +11011,24 @@ var Es = class extends xt {
       this.carga.trackPromise(e, t, { weight: n }));
   }
   async precalentar() {
-    (await Promise.allSettled(this.cargasEscena),
-      !this.torn &&
-        (await Promise.race([
-          this.calentarGpu(),
-          xs(bs).then(() => {
-            this.torn ||
-              console.warn(
-                `[home] el precalentado pasó de ${bs / 1e3} s: se revela y compila donde caiga`,
-              );
-          }),
-        ])));
+    await Promise.allSettled(this.cargasEscena);
+    if (this.torn) return;
+    let timeout;
+    try {
+      await Promise.race([
+        this.calentarGpu(),
+        new Promise((resolve) => {
+          timeout = setTimeout(() => {
+            this.torn || console.warn(
+              `[home] el precalentado pasó de ${bs / 1e3} s: se revela y compila donde caiga`,
+            );
+            resolve();
+          }, bs);
+        }),
+      ]);
+    } finally {
+      clearTimeout(timeout);
+    }
   }
   async calentarRama(e) {
     let t = this.universe;
