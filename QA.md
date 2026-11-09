@@ -26,4 +26,6 @@ The build copies the referenced local asset graph, gives each route a direct HTM
 
 ## Practical limits
 
+A startup audit identified heavy inherited renderer and shader work. The original loading message now sits outside the initially hidden content, with a cancellable two-frame paint boundary before renderer initialization. This provides visible feedback sooner while retaining the scene and shader warmup. Entrance, silent playback, Music navigation, and return to the immersive home were rechecked after this change.
+
 Mobile checks use browser emulation; physical iPhone/Android performance has not been measured. First-load scene readiness varies with GPU shader compilation, browser, and network. The experience includes visible loading feedback and a lighter route, without a fixed load-time or frame-rate promise.

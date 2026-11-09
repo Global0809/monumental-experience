@@ -12519,8 +12519,17 @@ var $ = null,
       !document.querySelector(`[data-scroll-track]`) ||
       (($ = new Es()), $.init(), Zt($));
   };
-(Os(),
-  document.addEventListener(`astro:page-load`, Os),
+// Give the static loading interface a paint before constructing the renderer.
+let bootEpoch = 0;
+const scheduleScene = () => {
+  const epoch = ++bootEpoch;
+  const run = () => { if (epoch === bootEpoch) Os(); };
+  if (document.hidden) run();
+  else requestAnimationFrame(() => requestAnimationFrame(run));
+};
+(scheduleScene(),
+  document.addEventListener(`astro:page-load`, scheduleScene),
   document.addEventListener(`astro:before-swap`, () => {
+    ++bootEpoch;
     ($?.destroy(), ($ = null), Zt(null));
   }));
