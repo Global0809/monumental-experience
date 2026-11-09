@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Blinding Lights",
+    "album": "After Hours",
+    "source": "https://music.apple.com/us/album/blinding-lights/1499378108?i=1499378607&uo=4",
+    "start": 0,
+    "duration": 30
+  },
+  {
+    "title": "Save Your Tears",
+    "album": "After Hours",
+    "source": "https://music.apple.com/us/album/save-your-tears/1499378108?i=1499378613&uo=4",
+    "start": 30,
+    "duration": 30
+  },
+  {
+    "title": "Starboy (feat. Daft Punk)",
+    "album": "Starboy",
+    "source": "https://music.apple.com/us/album/starboy-feat-daft-punk/1440871397?i=1440871420&uo=4",
+    "start": 60,
+    "duration": 30
+  },
+  {
+    "title": "The Hills",
+    "album": "Beauty Behind the Madness",
+    "source": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383&uo=4",
+    "start": 90,
+    "duration": 30
+  },
+  {
+    "title": "Take My Breath",
+    "album": "Take My Breath - Single",
+    "source": "https://music.apple.com/us/album/take-my-breath/1579408007?i=1579408008&uo=4",
+    "start": 120,
+    "duration": 30
+  },
+  {
+    "title": "Dancing In The Flames",
+    "album": "Dancing In The Flames - Single",
+    "source": "https://music.apple.com/us/album/dancing-in-the-flames/1767417935?i=1767418043&uo=4",
+    "start": 150,
+    "duration": 30
+  },
+  {
+    "title": "São Paulo",
+    "album": "Hurry Up Tomorrow",
+    "source": "https://music.apple.com/us/album/s%C3%A3o-paulo/1793654348?i=1793654352&uo=4",
+    "start": 180,
+    "duration": 30
+  },
+  {
+    "title": "Cry For Me",
+    "album": "Hurry Up Tomorrow",
+    "source": "https://music.apple.com/us/album/cry-for-me/1793654348?i=1793654350&uo=4",
+    "start": 210,
+    "duration": 30
+  }
+]

@@ -1,0 +1,43 @@
+# The Weeknd · Enter the Night
+
+An independent creative presentation adapted from the author's Hoyo Jerez website. The original tunnel, camera movement, animated characters, scene transitions, installations, navigation, and gallery interaction patterns are retained. The visual identity, artwork, music, signage, captions, and destinations are adapted for The Weeknd.
+
+## Run locally
+
+Requires Node.js 20.11 or later. No runtime package installation is needed.
+
+```sh
+npm run build
+npm run dev
+```
+
+Open http://127.0.0.1:4175 . Use an HTTP server; opening index.html directly with file:// cannot load JavaScript modules or 3D assets.
+
+## Explore
+
+Press the illuminated 3D button to enter with sound, or choose **Enter without sound**. Scroll or swipe through the tunnel. The menu opens Music, Visuals, and Connect. Album stands open official listening destinations; the image sphere opens the visual archive. Gallery detail pages retain the grid-size control and full-screen image viewer, with arrow keys and Escape.
+
+The footer contains music play/pause, previous/next preview, mute, and volume controls. Playback uses eight locally served 30-second official Apple Music excerpts.
+
+Reduced-motion mode provides a normal entrance button and still decorative video frames. If the browser cannot create the 3D scene, the site offers a lighter edition at `/discover.html`. That edition also works without JavaScript.
+
+## Files
+
+- `dist/`: editable production HTML, authored JavaScript modules, styles, and local assets.
+- `source-routes/`: individual gallery detail HTML entries.
+- `scripts/build.mjs`: creates `out/` using the referenced local asset graph and normal HTML route directories.
+- `scripts/check.mjs`: JavaScript syntax, language metadata, zoom, and content checks.
+- `scripts/serve.mjs`: local server with correct media MIME types and byte-range support.
+- `.openai/hosting.json`: Site identity and deployment configuration.
+- `dist/assets/media-sources.json`: official image, artwork, and link provenance.
+- `dist/assets/audio/playlist.json`: preview track names, sources, and chapter timings.
+
+This package contains the adapted production modules and assets. It does not reconstruct unpublished source files from the original author's project.
+
+## Attribution
+
+Reference experience: [Hoyo Jerez](https://hoyojerez.com/), supplied by its designer for this adaptation. Artist photographs: the official [Universal Music photo collection](https://www.universal-music.de/the-weeknd/fotos), with individual copyright credits in the source manifest. Album artwork and preview metadata: Apple Music/iTunes. Official destinations are linked directly from the presentation. The Weeknd, XO, artist imagery, and recordings belong to their respective owners. This presentation is an independent creative concept.
+
+## Validation
+
+The delivery is checked in desktop and mobile browser viewports, including the entrance, navigation, media controls, scene stages, gallery filters and lightbox, contact destinations, cookie preference persistence, reduced motion, and recovery when WebGL is unavailable. Browser emulation does not establish physical-device frame rates. See the delivery QA report for the final observed results.
