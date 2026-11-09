@@ -13,7 +13,7 @@ const env = {ASSETS: {async fetch(request) {
   const bytes = fs.readFileSync(file);
   return new Response(request.method === 'HEAD' ? null : bytes, {headers: {
     'Content-Type': file.endsWith('.mp4') ? 'video/mp4' : 'text/html',
-    'Content-Length': String(bytes.length), 'ETag':'"native-asset"',
+    ...(request.method === 'HEAD' ? {} : {'Content-Length': String(bytes.length)}), 'ETag':'"native-asset"',
     'Last-Modified':'Thu, 01 Jan 2026 00:00:00 GMT',
   }});
 }}};

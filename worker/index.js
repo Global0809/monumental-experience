@@ -4,7 +4,10 @@ const MEDIA = /* media-metadata */ {};
 function fullResponse(response, request, metadata) {
   const headers = new Headers(response.headers);
   headers.set('Accept-Ranges', 'bytes');
-  if (metadata) headers.set('ETag', metadata.etag);
+  if (metadata) {
+    headers.set('ETag', metadata.etag);
+    headers.set('Content-Length', String(metadata.size));
+  }
   return new Response(request.method === 'HEAD' ? null : response.body, {
     status: response.status, statusText: response.statusText, headers,
   });
