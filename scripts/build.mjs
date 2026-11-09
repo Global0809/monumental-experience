@@ -26,7 +26,7 @@ if(fs.existsSync(routeSource)){
   const text=fs.readFileSync(file,'utf8');for(const m of text.matchAll(/["'`](\/(?:_astro|assets|api|draco)\/[^"'`?#\s<>)]+)/g))copy(m[1]);
  }
 }
-for(const file of ['favicon.svg','favicon.ico','apple-touch-icon.png','site.webmanifest','og.jpg','robots.txt','sitemap.xml','discover.html','experience-accessibility.js','experience-accessibility.css'])if(fs.existsSync(path.join(source,file)))copy(file);
+for(const file of ['favicon.svg','favicon.ico','apple-touch-icon.png','site.webmanifest','og.jpg','robots.txt','sitemap.xml','discover.html','preview.html','experience-accessibility.js','experience-accessibility.css'])if(fs.existsSync(path.join(source,file)))copy(file);
 for(const file of fs.readdirSync(path.join(source,'draco')))copy('draco/'+file);
 if(missing.size)throw Error('Missing local assets:\n'+[...missing].join('\n'));
 fs.writeFileSync(path.join(root,'.openai/build-report.json'),JSON.stringify({files:files.length,bytes:files.reduce((n,f)=>n+f.bytes,0),assets:files},null,2));

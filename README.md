@@ -21,6 +21,8 @@ The desktop footer contains music play/pause, previous/next preview, mute, and v
 
 Reduced-motion mode provides a normal entrance button and still decorative video frames. If the browser cannot create the 3D scene, the site offers a lighter edition at `/discover.html`. That edition also works without JavaScript.
 
+A sixty-second recording is available at `/preview.html` for a quick, shareable introduction. It shows the actual experience with loading and idle pauses trimmed, accompanied by the same official preview soundtrack. The main experience loads independently of this recording.
+
 ## Files
 
 - `source/`: editable production HTML, authored JavaScript modules, styles, and local assets.
