@@ -1,0 +1,1095 @@
+{
+  "method": "Embedded image byte-range replacement; original Draco, meshopt, scene, skin and animation bytes preserved",
+  "models": [
+    {
+      "file": "dj-home.dSW1blte.glb",
+      "beforeBytes": 2406772,
+      "afterBytes": 2398500,
+      "replacements": [
+        {
+          "name": "dj-ropa-roja-cascos",
+          "input": "work\\monumental\\embedded\\dj-headphones.png",
+          "generatedSize": [
+            1254,
+            1254
+          ],
+          "nativeSize": [
+            1024,
+            1024
+          ],
+          "bytes": 30284,
+          "hash": "2b74f3fccab637b76dd93fc51654ee47cdc59dee5f9f8ba468725be3e20c7841"
+        },
+        {
+          "name": "camiseta-dj-color",
+          "input": "work\\monumental\\embedded\\dj-shirt.png",
+          "generatedSize": [
+            1254,
+            1254
+          ],
+          "nativeSize": [
+            1024,
+            1024
+          ],
+          "bytes": 117632,
+          "hash": "af8f9165d36920c483d4ee967529ec5408a606ef364ec589b167f66330d4f666"
+        },
+        {
+          "name": "mesa-pioneer-hoyo-basecolor",
+          "input": "work\\monumental\\embedded\\dj-desk.png",
+          "generatedSize": [
+            1254,
+            1254
+          ],
+          "nativeSize": [
+            1024,
+            1024
+          ],
+          "bytes": 138880,
+          "hash": "932b326a45beeeac56c0aadaccd2fd806553c68ddf6115977c299baf2295ddb0"
+        },
+        {
+          "name": "altavoz-atlas-base",
+          "input": "work\\monumental\\embedded\\dj-speakers.png",
+          "generatedSize": [
+            1254,
+            1254
+          ],
+          "nativeSize": [
+            1024,
+            1024
+          ],
+          "bytes": 221188,
+          "hash": "f32f8f9763ddcfba6d5ae9bf5de652bbd10784c5583544708e1f87696fdd6dcc"
+        }
+      ],
+      "preservedNonImageStreams": 45,
+      "untouchedImages": [
+        {
+          "name": "alien-hy3-normal",
+          "hash": "9ce10dfdd1ac6167229f7b26ef51eb9756d0b232a20ec58310bb643a5483c9f7"
+        },
+        {
+          "name": "alien-hy3-color",
+          "hash": "55c3af96c67999c348416439082655003b9bbe2c72d5eaab2d67ec6aa953a240"
+        },
+        {
+          "name": "alien-hy3-mr",
+          "hash": "5d819ea726802626bfa6a16437545dc07f3d8d4e13bbd3590f932259493ecad6"
+        },
+        {
+          "name": "camiseta-dj-normal",
+          "hash": "0bc446f79679d889de0bdba3eaa3f8d7f8eff22ad3def2bcca09d42b6b001e87"
+        },
+        {
+          "name": "altavoz-atlas-orm",
+          "hash": "a99b66057900380ba2165b2f9da9c7a0b74be6c7975beaa0dbbb85b664ec8e84"
+        },
+        {
+          "name": "altavoz-atlas-normal",
+          "hash": "c68d2efea900774cc5cce828f33c38eef218d78f8579f840081e33808df7b4d6"
+        }
+      ],
+      "contractExact": true,
+      "jsonOutsideImageOffsetsExact": true,
+      "contract": {
+        "nodes": [
+          "LeftToe",
+          "LeftFoot",
+          "LeftShin",
+          "LeftThigh",
+          "RightToe",
+          "RightFoot",
+          "RightShin",
+          "RightThigh",
+          "LeftForeArmTwist1",
+          "LeftForeArmTwist2",
+          "LeftFinger1Distal",
+          "LeftFinger1Proximal",
+          "LeftFinger1Metacarpal",
+          "LeftFinger2Distal",
+          "LeftFinger2Medial",
+          "LeftFinger2Proximal",
+          "LeftFinger2Metacarpal",
+          "LeftFinger3Distal",
+          "LeftFinger3Medial",
+          "LeftFinger3Proximal",
+          "LeftFinger3Metacarpal",
+          "LeftFinger4Distal",
+          "LeftFinger4Medial",
+          "LeftFinger4Proximal",
+          "LeftFinger4Metacarpal",
+          "LeftFinger5Distal",
+          "LeftFinger5Medial",
+          "LeftFinger5Proximal",
+          "LeftFinger5Metacarpal",
+          "LeftHand",
+          "LeftForeArm",
+          "LeftArm",
+          "LeftShoulder",
+          "Cascos_DJ",
+          "DJ_HeadTop",
+          "Gafas_Hoyo",
+          "Head",
+          "Neck",
+          "RightForeArmTwist1",
+          "RightForeArmTwist2",
+          "RightFinger1Distal",
+          "RightFinger1Proximal",
+          "RightFinger1Metacarpal",
+          "RightFinger2Distal",
+          "RightFinger2Medial",
+          "RightFinger2Proximal",
+          "RightFinger2Metacarpal",
+          "RightFinger3Distal",
+          "RightFinger3Medial",
+          "RightFinger3Proximal",
+          "RightFinger3Metacarpal",
+          "RightFinger4Distal",
+          "RightFinger4Medial",
+          "RightFinger4Proximal",
+          "RightFinger4Metacarpal",
+          "RightFinger5Distal",
+          "RightFinger5Medial",
+          "RightFinger5Proximal",
+          "RightFinger5Metacarpal",
+          "RightHand",
+          "RightForeArm",
+          "RightArm",
+          "RightShoulder",
+          "Spine4",
+          "Spine3",
+          "Spine2",
+          "Spine1",
+          "Tela_00",
+          "Tela_01",
+          "Tela_02",
+          "Tela_03",
+          "Tela_04",
+          "Tela_05",
+          "Tela_06",
+          "Tela_07",
+          "Tela_08",
+          "Tela_09",
+          "Tela_10",
+          "Tela_11",
+          "Tela_12",
+          "Tela_13",
+          "Tela_14",
+          "Tela_15",
+          "Tela_16",
+          "Tela_17",
+          "Tela_18",
+          "Tela_19",
+          "Tela_20",
+          "Tela_21",
+          "Tela_22",
+          "Tela_23",
+          "Tela_24",
+          "Tela_25",
+          "Tela_26",
+          "Tela_27",
+          "Tela_28",
+          "Tela_29",
+          "Tela_30",
+          "Tela_31",
+          "Hips",
+          "Root",
+          "Alien",
+          "Camiseta_DJ",
+          "Alien_ClubVenue_Rig",
+          "Vaso_DJ",
+          "Mesa_DJ",
+          "Altavoz_1",
+          "Altavoz_2",
+          "Altavoz_3",
+          "Altavoz_4"
+        ],
+        "meshes": [
+          {
+            "name": "Alien.001",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "COLOR_0",
+                  "JOINTS_0",
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0",
+                  "WEIGHTS_0"
+                ],
+                "vertices": 10166,
+                "indices": 41124,
+                "material": "Alien_DJ"
+              }
+            ]
+          },
+          {
+            "name": "Cascos Hoyo · acolchado y carcasa",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 818,
+                "indices": 4056,
+                "material": "Cascos_DJ"
+              }
+            ]
+          },
+          {
+            "name": "Gafas · recurso reducido",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 556,
+                "indices": 2880,
+                "material": "Gafas_Hoyo"
+              }
+            ]
+          },
+          {
+            "name": "Camiseta_DJ.001",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "COLOR_0",
+                  "JOINTS_0",
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0",
+                  "WEIGHTS_0"
+                ],
+                "vertices": 2960,
+                "indices": 11940,
+                "material": "Camiseta_DJ"
+              }
+            ]
+          },
+          {
+            "name": "Vaso · geometría ligera",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION"
+                ],
+                "vertices": 144,
+                "indices": 420,
+                "material": "Vaso · grafito"
+              },
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION"
+                ],
+                "vertices": 48,
+                "indices": 144,
+                "material": "Vaso · borde"
+              },
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION"
+                ],
+                "vertices": 24,
+                "indices": 66,
+                "material": "Bebida · ámbar"
+              }
+            ]
+          },
+          {
+            "name": "Mesa",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 24,
+                "indices": 36,
+                "material": "Mesa_Hoyo"
+              }
+            ]
+          },
+          {
+            "name": "Altavoz",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "COLOR_0",
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 1496,
+                "indices": 2499,
+                "material": "Altavoz_Atlas"
+              }
+            ]
+          }
+        ],
+        "materials": [
+          "Alien_DJ",
+          "Cascos_DJ",
+          "Gafas_Hoyo",
+          "Camiseta_DJ",
+          "Vaso · grafito",
+          "Vaso · borde",
+          "Bebida · ámbar",
+          "Mesa_Hoyo",
+          "Altavoz_Atlas"
+        ],
+        "textures": [
+          "alien-hy3-normal",
+          "alien-hy3-color",
+          "alien-hy3-mr",
+          "dj-ropa-roja-cascos",
+          "camiseta-dj-normal",
+          "camiseta-dj-color",
+          "mesa-pioneer-hoyo-basecolor",
+          "altavoz-atlas-base",
+          "altavoz-atlas-orm",
+          "altavoz-atlas-normal"
+        ],
+        "skins": [
+          {
+            "name": "Alien_ClubVenue_Rig",
+            "joints": [
+              "Root",
+              "Hips",
+              "LeftThigh",
+              "LeftShin",
+              "LeftFoot",
+              "LeftToe",
+              "RightThigh",
+              "RightShin",
+              "RightFoot",
+              "RightToe",
+              "Spine1",
+              "Spine2",
+              "Spine3",
+              "Spine4",
+              "LeftShoulder",
+              "LeftArm",
+              "LeftForeArm",
+              "LeftForeArmTwist1",
+              "LeftForeArmTwist2",
+              "LeftHand",
+              "LeftFinger1Metacarpal",
+              "LeftFinger1Proximal",
+              "LeftFinger1Distal",
+              "LeftFinger2Metacarpal",
+              "LeftFinger2Proximal",
+              "LeftFinger2Medial",
+              "LeftFinger2Distal",
+              "LeftFinger3Metacarpal",
+              "LeftFinger3Proximal",
+              "LeftFinger3Medial",
+              "LeftFinger3Distal",
+              "LeftFinger4Metacarpal",
+              "LeftFinger4Proximal",
+              "LeftFinger4Medial",
+              "LeftFinger4Distal",
+              "LeftFinger5Metacarpal",
+              "LeftFinger5Proximal",
+              "LeftFinger5Medial",
+              "LeftFinger5Distal",
+              "Neck",
+              "Head",
+              "RightShoulder",
+              "RightArm",
+              "RightForeArm",
+              "RightForeArmTwist1",
+              "RightForeArmTwist2",
+              "RightHand",
+              "RightFinger1Metacarpal",
+              "RightFinger1Proximal",
+              "RightFinger1Distal",
+              "RightFinger2Metacarpal",
+              "RightFinger2Proximal",
+              "RightFinger2Medial",
+              "RightFinger2Distal",
+              "RightFinger3Metacarpal",
+              "RightFinger3Proximal",
+              "RightFinger3Medial",
+              "RightFinger3Distal",
+              "RightFinger4Metacarpal",
+              "RightFinger4Proximal",
+              "RightFinger4Medial",
+              "RightFinger4Distal",
+              "RightFinger5Metacarpal",
+              "RightFinger5Proximal",
+              "RightFinger5Medial",
+              "RightFinger5Distal",
+              "Tela_00",
+              "Tela_01",
+              "Tela_02",
+              "Tela_03",
+              "Tela_04",
+              "Tela_05",
+              "Tela_06",
+              "Tela_07",
+              "Tela_08",
+              "Tela_09",
+              "Tela_10",
+              "Tela_11",
+              "Tela_12",
+              "Tela_13",
+              "Tela_14",
+              "Tela_15",
+              "Tela_16",
+              "Tela_17",
+              "Tela_18",
+              "Tela_19",
+              "Tela_20",
+              "Tela_21",
+              "Tela_22",
+              "Tela_23",
+              "Tela_24",
+              "Tela_25",
+              "Tela_26",
+              "Tela_27",
+              "Tela_28",
+              "Tela_29",
+              "Tela_30",
+              "Tela_31"
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "name": "DJ_Session",
+            "channels": [
+              {
+                "node": "Hips",
+                "path": "translation"
+              },
+              {
+                "node": "Hips",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftThigh",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftShin",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFoot",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftToe",
+                "path": "rotation"
+              },
+              {
+                "node": "RightThigh",
+                "path": "rotation"
+              },
+              {
+                "node": "RightShin",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFoot",
+                "path": "rotation"
+              },
+              {
+                "node": "RightToe",
+                "path": "rotation"
+              },
+              {
+                "node": "Spine1",
+                "path": "rotation"
+              },
+              {
+                "node": "Spine2",
+                "path": "rotation"
+              },
+              {
+                "node": "Spine3",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftShoulder",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftArm",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftForeArm",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftForeArmTwist1",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftForeArmTwist2",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftHand",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger1Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger1Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger1Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger2Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger2Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger2Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger3Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger3Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger3Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger4Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger4Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger4Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger5Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger5Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "LeftFinger5Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "Neck",
+                "path": "rotation"
+              },
+              {
+                "node": "Head",
+                "path": "rotation"
+              },
+              {
+                "node": "RightShoulder",
+                "path": "rotation"
+              },
+              {
+                "node": "RightArm",
+                "path": "rotation"
+              },
+              {
+                "node": "RightForeArm",
+                "path": "rotation"
+              },
+              {
+                "node": "RightForeArmTwist1",
+                "path": "rotation"
+              },
+              {
+                "node": "RightForeArmTwist2",
+                "path": "rotation"
+              },
+              {
+                "node": "RightHand",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger1Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger1Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger1Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger2Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger2Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger2Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger2Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger3Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger3Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger3Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger3Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger4Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger4Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger4Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger4Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger5Metacarpal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger5Proximal",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger5Medial",
+                "path": "rotation"
+              },
+              {
+                "node": "RightFinger5Distal",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_00",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_00",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_01",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_01",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_02",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_02",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_03",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_03",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_04",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_04",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_05",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_05",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_06",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_06",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_07",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_07",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_08",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_08",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_09",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_09",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_10",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_10",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_11",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_11",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_12",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_12",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_13",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_13",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_14",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_14",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_15",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_15",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_16",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_16",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_17",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_17",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_18",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_18",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_19",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_19",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_20",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_20",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_21",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_21",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_22",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_22",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_23",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_23",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_24",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_24",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_25",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_25",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_26",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_26",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_27",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_27",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_28",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_28",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_29",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_29",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_30",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_30",
+                "path": "rotation"
+              },
+              {
+                "node": "Tela_31",
+                "path": "translation"
+              },
+              {
+                "node": "Tela_31",
+                "path": "rotation"
+              },
+              {
+                "node": "Vaso_DJ",
+                "path": "translation"
+              },
+              {
+                "node": "Vaso_DJ",
+                "path": "rotation"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "cajas-pegatinas.Cdf_9k0M.glb",
+      "beforeBytes": 299604,
+      "afterBytes": 298956,
+      "replacements": [
+        {
+          "name": "Color",
+          "input": "work\\monumental\\embedded\\contact-boxes.png",
+          "generatedSize": [
+            1254,
+            1254
+          ],
+          "nativeSize": [
+            1024,
+            1024
+          ],
+          "bytes": 141844,
+          "hash": "df77de9612ea80936b3ee313a5c20cf518d4bfa184d5b29ddfe798fbf6279cd6"
+        }
+      ],
+      "preservedNonImageStreams": 3,
+      "untouchedImages": [
+        {
+          "name": "Normal",
+          "hash": "a7e101956f184d64ec964a0e8269cd188712bcfbce3eebfb02681b54b5ab7436"
+        },
+        {
+          "name": "MetalRugosidad",
+          "hash": "d44d2f3d47fab8efe60907efe4962be6532c183a7486e12e85eeedfa27d42792"
+        }
+      ],
+      "contractExact": true,
+      "jsonOutsideImageOffsetsExact": true,
+      "contract": {
+        "nodes": [
+          "Caja_1",
+          "Caja_2",
+          "Caja_3"
+        ],
+        "meshes": [
+          {
+            "name": "Cube.529",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 2544,
+                "indices": 3516,
+                "material": "Caja_PBR"
+              }
+            ]
+          },
+          {
+            "name": "Cube.530",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 2544,
+                "indices": 3516,
+                "material": "Caja_PBR"
+              }
+            ]
+          },
+          {
+            "name": "Cube.340",
+            "primitives": [
+              {
+                "mode": 4,
+                "attributes": [
+                  "NORMAL",
+                  "POSITION",
+                  "TEXCOORD_0"
+                ],
+                "vertices": 2544,
+                "indices": 3516,
+                "material": "Caja_PBR"
+              }
+            ]
+          }
+        ],
+        "materials": [
+          "Caja_PBR"
+        ],
+        "textures": [
+          "Normal",
+          "Color",
+          "MetalRugosidad"
+        ],
+        "skins": [],
+        "animations": []
+      }
+    }
+  ]
+}

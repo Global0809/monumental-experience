@@ -2,6 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
 const source=path.join(root,'source'),target=path.join(root,'out');
+if(target!==path.resolve(root,'out')||!target.startsWith(root+path.sep))throw Error('Unsafe generated output path');
+// out/ is exclusively generated; rebuilding must not retain renamed media.
+if(fs.existsSync(target))fs.rmSync(target,{recursive:true,force:true});
 fs.mkdirSync(target,{recursive:true});
 const visited=new Set(),missing=new Set(),files=[];
 function copy(relative,destination=relative){

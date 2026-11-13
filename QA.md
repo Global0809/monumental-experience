@@ -1,35 +1,21 @@
-# Delivery verification
+# MONUMENTAL verification
 
-The adapted experience has been checked against the designer-supplied reference and through real browser interactions.
+## Rebrand source checks
 
-## Visual and interaction coverage
+The 14 November 2026 rebrand updates twenty HTML route entries, hydrated UI labels, accessible fallback copy, collection API names and dates, metadata, navigation destinations and project documentation. Existing routes, asset filenames, UI classes, layout and interaction contracts are preserved.
 
-- Original entrance character, illuminated 3D button, ignition, neon/CRT composition, scrolling tunnel, album stands, DJ installation, visual sphere, astronaut projection, contact wall, and route transitions.
-- Sound-enabled 3D button and silent entry. Desktop play/pause, previous/next, mute/unmute, and keyboard volume control completed full state cycles.
-- Scroll and touch navigation, sphere-to-gallery raycast navigation, menus, page transitions, browser history, official music destinations, and contact links.
-- Gallery year/month filters, all eleven era detail routes, grid-size slider, image navigation, Escape, keyboard focus return, and focus containment.
-- Cookie choices, settings, and persistence. No analytics or advertising integration is loaded by this concept.
+The gallery API contains eleven named creative studies, all dated 2026-11-14. The Work API contains AFTER DARK, FREQUENCY and WORLD, each linked to its internal gallery detail. Connect has internal Work, Visuals and brand-film destinations; the footer links to Visuals. No external client identity or social account is invented.
 
-Desktop, 390×844 mobile, 844×390 landscape, and narrow 320px page layouts were inspected. The native app browser also rendered and entered the published scene. The Music page's overlapping poster/caption typography and the landscape footer credit overflow were corrected.
+The brand-film page describes the new sixty-second film. Documentation identifies the original four-minute procedural ambient soundtrack and eight chapter controls. Legacy media filenames remain intentional compatibility paths.
 
-## Media and recovery
+## Retained behavior to verify in the final build
 
-The actual video loops were decoded and checked in mobile emulation: 768×216 CRT atlas and 540×960 portrait projection. Playback advances normally. Reduced-motion entry has a visible sound-enabled button; decorative video pauses on a meaningful frame and responds to preference changes while active.
+Check desktop and mobile entry with and without sound; scrolling, touch navigation and return-home behavior; Work stands; sphere-to-gallery navigation; all eleven collection routes; year/month filters; grid-size control; lightbox arrow keys and Escape; contact destinations; audio play/pause, chapter skipping, mute and volume; cookie preferences; reduced motion; and WebGL recovery.
 
-Unavailable WebGL opens the lighter edition. A blocked required model reached the English retry state and recovered after the block was removed. Failed gallery data reached its recovery state. With JavaScript disabled, the lighter edition remains reachable and presents the eleven album cards.
-
-Normal tested flows produced no JavaScript page errors or failed HTTP responses. The public origin and a direct nested gallery route were verified anonymously with successful HTML responses and no sign-in gate.
-
-## Package checks
-
-The build copies the referenced local asset graph, gives each route a direct HTML entry, and verifies JavaScript syntax, English metadata, zoom accessibility, and local content. Every built file has a corresponding uploadable source file. The three new lettering models and the rebranded animated models retain their expected geometry, node, material, skin, and animation contracts.
-
-Long-session navigation exposed five retained GPU textures per return home. Cleanup now releases the per-home floor-prop material maps and the discarded shared marquee source. Eight complete route cycles retained a stable 77 textures, with geometry and shader-program counts plateauing. No page errors, failed responses, context loss, or late warnings were observed during that regression.
-
-The hosting build includes a small media Worker because native static hosting returns whole files for range requests. The Worker preserves the existing media URLs and serves partial content with strong content hashes. Range boundaries, open and suffix ranges, validators, HEAD, missing files, and ordinary assets are verified before publication. This addresses media delivery requirements; physical Safari/iPhone playback remains unmeasured.
+The original implementation previously underwent desktop, 390×844 portrait, 844×390 landscape and narrow 320px layout checks. Those historical checks describe the retained interaction baseline and do not substitute for observing the final MONUMENTAL deployment.
 
 ## Practical limits
 
-A startup audit identified heavy inherited renderer and shader work. The original loading message now sits outside the initially hidden content, with a cancellable two-frame paint boundary before renderer initialization. This provides visible feedback sooner while retaining the scene and shader warmup. Entrance, silent playback, Music navigation, and return to the immersive home were rechecked after this change.
+Browser emulation does not establish physical iPhone/Android playback or frame rates. Initial scene readiness varies with GPU shader compilation, browser and network. The experience retains visible loading feedback and a lighter route, without a fixed load-time or frame-rate promise.
 
-Mobile checks use browser emulation; physical iPhone/Android performance has not been measured. First-load scene readiness varies with GPU shader compilation, browser, and network. The experience includes visible loading feedback and a lighter route, without a fixed load-time or frame-rate promise.
+Final deployment URL, anonymous access, media range support and browser verification are recorded by the deployment owner after rebuilding the combined asset and copy changes.

@@ -1,389 +1,112 @@
 {
-  "albums": [
+  "brand": "MONUMENTAL",
+  "kind": "Client creative concept",
+  "generatedArtwork": [
     {
-      "name": "House of Balloons (Original)",
-      "date": "2011-03-21T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/house-of-balloons-original/1558941834?uo=4",
-      "file": "house-of-balloons-original.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/18/fa/3118fab0-90ea-2ae5-cf6c-bc64054ab9e3/21UMGIM21449.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 390003,
-      "localAsset": "/assets/albums/house-of-balloons-original.jpg",
-      "deliveredBytes": 138614
+      "file": "/assets/monumental/origin.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "origin"
     },
     {
-      "name": "Thursday (Original)",
-      "date": "2011-08-18T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/thursday-original/1579255902?uo=4",
-      "file": "thursday-original.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/42/e0/1a/42e01a95-6558-37d5-8527-bcce7072279e/21UMGIM61407.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 362536,
-      "localAsset": "/assets/albums/thursday-original.jpg",
-      "deliveredBytes": 140766
+      "file": "/assets/monumental/frequency.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "frequency"
     },
     {
-      "name": "Trilogy",
-      "date": "2012-11-13T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/trilogy/1714908584?uo=4",
-      "file": "trilogy.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/d5/13/66d513dd-3cb0-b86b-4d11-1fbab2e6a639/12UMGIM54989.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 116545,
-      "localAsset": "/assets/albums/trilogy.jpg",
-      "deliveredBytes": 40532
+      "file": "/assets/monumental/portal.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "portal"
     },
     {
-      "name": "Kiss Land",
-      "date": "2013-09-10T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/kiss-land/1422667786?uo=4",
-      "file": "kiss-land.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 381496,
-      "releaseDateSource": "https://www.universalmusic.ca/2013/07/22/the-weeknds-kiss-land-to-arrive-september-10/",
-      "localAsset": "/assets/albums/kiss-land.jpg",
-      "deliveredBytes": 117342
+      "file": "/assets/monumental/cinema.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "cinema"
     },
     {
-      "name": "Beauty Behind the Madness",
-      "date": "2015-08-28T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/beauty-behind-the-madness/1440826239?uo=4",
-      "file": "beauty-behind-the-madness.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 381641,
-      "localAsset": "/assets/albums/beauty-behind-the-madness.jpg",
-      "deliveredBytes": 129847
+      "file": "/assets/monumental/time.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "time"
     },
     {
-      "name": "Starboy",
-      "date": "2016-11-25T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/starboy/1440871397?uo=4",
-      "file": "starboy.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 509392,
-      "localAsset": "/assets/albums/starboy.jpg",
-      "deliveredBytes": 178410
+      "file": "/assets/monumental/culture.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "culture"
     },
     {
-      "name": "My Dear Melancholy,",
-      "date": "2018-03-30T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/my-dear-melancholy/1363309866?uo=4",
-      "file": "my-dear-melancholy.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/aa/b4/2aaab42a-a4cb-a600-4a25-d78961495960/18UMGIM17204.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 499698,
-      "localAsset": "/assets/albums/my-dear-melancholy.jpg",
-      "deliveredBytes": 185006
-    },
-    {
-      "name": "After Hours",
-      "date": "2020-03-20T07:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/after-hours/1499378108?uo=4",
-      "file": "after-hours.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 471529,
-      "localAsset": "/assets/albums/after-hours.jpg",
-      "deliveredBytes": 130214
-    },
-    {
-      "name": "Dawn FM",
-      "date": "2022-01-07T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/dawn-fm/1603171516?uo=4",
-      "file": "dawn-fm.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/22/a9/2f22a9a6-5af1-5846-a44e-ba016724ed69/21UM1IM58860.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 322931,
-      "localAsset": "/assets/albums/dawn-fm.jpg",
-      "deliveredBytes": 113507
-    },
-    {
-      "name": "Hurry Up Tomorrow",
-      "date": "2025-01-31T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/hurry-up-tomorrow/1793654348?uo=4",
-      "file": "hurry-up-tomorrow.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/9b/6e/499b6e2d-648f-1a4e-31b8-fb7f06a8123c/25UMGIM09490.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 370274,
-      "localAsset": "/assets/albums/hurry-up-tomorrow.jpg",
-      "deliveredBytes": 107014
-    },
-    {
-      "name": "The Highlights",
-      "date": "2021-02-05T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/the-highlights/1550875218?uo=4",
-      "file": "the-highlights.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/e9/95/dce995ab-5287-cba4-4966-46d16bf1c072/21UMGIM06667.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 230435,
-      "localAsset": "/assets/albums/the-highlights.jpg",
-      "deliveredBytes": 89484
-    },
-    {
-      "name": "Live At SoFi Stadium",
-      "date": "2023-03-03T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/live-at-sofi-stadium/1674298155?uo=4",
-      "file": "live-at-sofi-stadium.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/8e/da/ad8eda90-c2f5-7488-042d-4b09bd2c9c05/23UMGIM20832.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 241755,
-      "localAsset": "/assets/albums/live-at-sofi-stadium.jpg",
-      "deliveredBytes": 74388
-    },
-    {
-      "name": "Echoes Of Silence (Original)",
-      "date": "2011-12-21T08:00:00Z",
-      "albumUrl": "https://music.apple.com/us/album/echoes-of-silence-original/1598758840?uo=4",
-      "file": "echoes-of-silence-original.jpg",
-      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/57/34/ec573456-7d5a-4a48-018c-2b252ec2d825/21UM1IM44288.rgb.jpg/1200x1200bb.jpg",
-      "bytes": 209638,
-      "localAsset": "/assets/albums/echoes-of-silence-original.jpg",
-      "deliveredBytes": 78685
+      "file": "/assets/monumental/world.webp",
+      "source": "Built-in ImageGen, original MONUMENTAL campaign artwork",
+      "description": "world"
     }
   ],
-  "press": [
+  "typography": "Native Morganite vector outlines; source font unmodified.",
+  "collections": [
     {
-      "file": "598752-pressefoto-hurry-up-tomorrow-2024.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/598/598752/195/pressefoto-hurry-up-tomorrow-2024.jpg",
-      "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
-      "copyright": "Eddy Chen",
-      "width": 2431,
-      "height": 3000,
-      "localAsset": "/assets/portraits/hurry-up-tomorrow-tilt.webp",
-      "deliveredBytes": 80892
+      "id": "hurry-up-tomorrow",
+      "name": "WORLD",
+      "art": "world",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "598751-pressefoto-hurry-up-tomorrow-2024.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/598/598751/195/pressefoto-hurry-up-tomorrow-2024.jpg",
-      "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
-      "copyright": "Eddy Chen",
-      "width": 3000,
-      "height": 4000,
-      "localAsset": "/assets/portraits/hurry-up-tomorrow-red.webp",
-      "deliveredBytes": 140448
+      "id": "dawn-fm",
+      "name": "FREQUENCY",
+      "art": "frequency",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "598750-pressefoto-hurry-up-tomorrow-2024.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/598/598750/195/pressefoto-hurry-up-tomorrow-2024.jpg",
-      "title": "Pressefoto \"Hurry Up Tomorrow\" (2024)",
-      "copyright": "Eddy Chen",
-      "width": 3024,
-      "height": 4032,
-      "localAsset": "/assets/portraits/hurry-up-tomorrow-side.webp",
-      "deliveredBytes": 41854
+      "id": "after-hours",
+      "name": "AFTER DARK",
+      "art": "portal",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "598749-hurry-up-tomorrow-2024.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/598/598749/195/hurry-up-tomorrow-2024.jpg",
-      "title": "\"Hurry Up Tomorrow\" (2024)",
-      "copyright": "Eddy Chen",
-      "width": 4000,
-      "height": 5333,
-      "localAsset": "/assets/portraits/hurry-up-tomorrow-tank.webp",
-      "deliveredBytes": 119354
+      "id": "my-dear-melancholy",
+      "name": "CINEMA",
+      "art": "cinema",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "573848-the-weeknd-the-idol-cover-2023.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/573/573848/195/the-weeknd-the-idol-cover-2023.jpg",
-      "title": "The Weeknd \"The Idol\" Cover (2023)",
-      "copyright": "Universal Music",
-      "width": 3000,
-      "height": 3000
+      "id": "starboy",
+      "name": "CULTURE",
+      "art": "culture",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "573834-the-weeknd-the-idol-2023.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/573/573834/195/the-weeknd-the-idol-2023.jpg",
-      "title": "The Weeknd \"The Idol\" (2023)",
-      "copyright": "Universal Music",
-      "width": 3000,
-      "height": 1989
+      "id": "beauty-behind-the-madness",
+      "name": "ORIGIN",
+      "art": "origin",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "547704-the-weeknd-2022.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/547/547704/195/the-weeknd-2022.jpg",
-      "title": "The Weeknd 2022",
-      "copyright": "Brian Ziff",
-      "width": 5682,
-      "height": 7103
+      "id": "kiss-land",
+      "name": "THE PORTAL",
+      "art": "portal",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "547776-the-weeknd-2022.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/547/547776/195/the-weeknd-2022.jpg",
-      "title": "The Weeknd 2022",
-      "copyright": "Brian Ziff",
-      "width": 5950,
-      "height": 8192
+      "id": "trilogy",
+      "name": "TIME MACHINE",
+      "art": "time",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "547778-the-weeknd-2022.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/547/547778/195/the-weeknd-2022.jpg",
-      "title": "The Weeknd 2022",
-      "copyright": "Brian Ziff",
-      "width": 4467,
-      "height": 5584
+      "id": "house-of-balloons-original",
+      "name": "DREAMSTATE",
+      "art": "cinema",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "547705-the-weeknd-2022.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/547/547705/195/the-weeknd-2022.jpg",
-      "title": "The Weeknd 2022",
-      "copyright": "Brian Ziff",
-      "width": 7387,
-      "height": 4314,
-      "localAsset": "/assets/portraits/dawn-fm-wide.webp",
-      "deliveredBytes": 42284
+      "id": "thursday-original",
+      "name": "KINETIC",
+      "art": "culture",
+      "conceptDate": "2026-11-14"
     },
     {
-      "file": "547777-the-weeknd-2022.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/547/547777/195/the-weeknd-2022.jpg",
-      "title": "The Weeknd 2022",
-      "copyright": "Brian Ziff",
-      "width": 6554,
-      "height": 8192
-    },
-    {
-      "file": "495852-the-weeknd-2020.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/495/495852/195/the-weeknd-2020.jpg",
-      "title": "The Weeknd 2020",
-      "copyright": "Anton Tammi",
-      "width": 2257,
-      "height": 2805,
-      "localAsset": "/assets/portraits/after-hours-red.webp",
-      "deliveredBytes": 152846
-    },
-    {
-      "file": "495853-the-weeknd-2020.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/495/495853/195/the-weeknd-2020.jpg",
-      "title": "The Weeknd 2020",
-      "copyright": "Anton Tammi",
-      "width": 2114,
-      "height": 2601,
-      "localAsset": "/assets/portraits/after-hours-smile.webp",
-      "deliveredBytes": 249154
-    },
-    {
-      "file": "414994-the-weeknd-2016-starboy-cover.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/414/414994/195/the-weeknd-2016-starboy-cover.jpg",
-      "title": "The Weeknd 2016 Starboy Cover",
-      "copyright": "Universal Music ",
-      "width": 1500,
-      "height": 1500
-    },
-    {
-      "file": "371398-the-weeknd-beauty-behind-the-madness.jpg",
-      "exists": true,
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/371/371398/195/the-weeknd-beauty-behind-the-madness.jpg",
-      "title": "The Weeknd - Beauty Behind The Madness",
-      "copyright": "Universal Music ",
-      "width": 4500,
-      "height": 4500
-    },
-    {
-      "file": "605949-the-weeknd.jpg",
-      "sourcePage": "https://www.universal-music.de/the-weeknd/fotos",
-      "imageUrl": "https://images.universal-music.de/img/assets/605/605949/195/the-weeknd.jpg",
-      "title": "The Weeknd artist portrait",
-      "copyright": null,
-      "width": 1912,
-      "height": 2867,
-      "localAsset": "/assets/portraits/the-weeknd.webp",
-      "deliveredBytes": 151284
+      "id": "echoes-of-silence-original",
+      "name": "HORIZON",
+      "art": "world",
+      "conceptDate": "2026-11-14"
     }
   ],
-  "links": {
-    "official": "https://www.theweeknd.com/",
-    "tour": "https://www.theweeknd.com/tour/",
-    "store": "https://xo.store/",
-    "instagram": "https://www.instagram.com/theweeknd/",
-    "youtube": "https://www.youtube.com/theweeknd",
-    "twitter": "https://twitter.com/TheWeeknd",
-    "tiktok": "https://www.tiktok.com/@theweeknd",
-    "discord": "https://discord.com/invite/theweeknd",
-    "facebook": "https://www.facebook.com/theweeknd",
-    "appleMusic": "https://music.apple.com/us/artist/the-weeknd/479756766",
-    "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
-  },
-  "musicVideoPreviews": [
-    {
-      "title": "Blinding Lights",
-      "source": "https://music.apple.com/us/music-video/blinding-lights/1495409676?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/6a/e8/e0/6ae8e039-4855-c1ec-ab87-1a349010859a/mzvf_5162835731448030244.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "Take My Breath",
-      "source": "https://music.apple.com/us/music-video/take-my-breath/1579734725?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video115/v4/bd/7b/8f/bd7b8f77-1536-bea5-7da9-cc78f9f61efd/mzvf_10109716172756164772.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "Save Your Tears (Main)",
-      "source": "https://music.apple.com/us/music-video/save-your-tears-main-remix/1564340447?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video126/v4/29/18/ff/2918ff05-1a1e-f2e5-568b-ec36721d3d81/mzvf_3547631354101689958.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "After Hours",
-      "source": "https://music.apple.com/us/music-video/after-hours-short-film/1501423215?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video124/v4/91/c1/a5/91c1a514-dd90-d534-afd0-76a567121fc9/mzvf_12606092371926038175.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "Call Out My Name",
-      "source": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "Out of Time",
-      "source": "https://music.apple.com/us/music-video/out-of-time/1617725277?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video112/v4/13/c0/87/13c08773-706e-941f-7400-212480be189d/mzvf_16083973166063577679.1920w.h264lc.U.p.m4v"
-    },
-    {
-      "title": "Timeless",
-      "source": "https://music.apple.com/us/music-video/timeless/1771533314?uo=4",
-      "preview": "https://video-ssl.itunes.apple.com/itunes-assets/Video211/v4/6c/ce/87/6cce87fd-d193-6687-9a3f-c098ddb10881/mzvf_13176339109459711453.1920w.h264lc.U.p.m4v"
-    }
-  ],
-  "videoStills": [
-    {
-      "previewSecond": 3.5,
-      "caption": "Call Out My Name · blue hour",
-      "albumId": "my-dear-melancholy",
-      "sourcePage": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
-      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v",
-      "kind": "frame from official Apple music-video preview",
-      "width": 1440,
-      "height": 808,
-      "bytes": 70510,
-      "localAsset": "/assets/stills/call-out-my-name-blue.webp"
-    },
-    {
-      "previewSecond": 16.5,
-      "caption": "Call Out My Name · the flock",
-      "albumId": "my-dear-melancholy",
-      "sourcePage": "https://music.apple.com/us/music-video/call-out-my-name/1371037984?uo=4",
-      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/18/87/a6/1887a6c6-0574-69bb-5e61-07c3712d8ae8/mzvf_4429536307315908819.1920w.h264lc.U.p.m4v",
-      "kind": "frame from official Apple music-video preview",
-      "width": 1440,
-      "height": 808,
-      "bytes": 75154,
-      "localAsset": "/assets/stills/call-out-my-name-flock.webp"
-    }
-  ],
-  "provenanceFormatNote": "The file and bytes fields describe source downloads. localAsset and deliveredBytes identify packaged derivatives. A null copyright means no photographer credit was supplied in the parsed official entry."
+  "audio": "Original procedural ambient composition for the MONUMENTAL concept, with no third-party recordings or vocals.",
+  "technicalNote": "Legacy asset filenames are retained for renderer compatibility; their visible content has been replaced."
 }

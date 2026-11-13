@@ -1,0 +1,47 @@
+{
+  "purpose": "MONUMENTAL embedded UV rebrand. Actual creative edits use builtin ImageGen; sharp only converts selected images to original native dimensions and WebP.",
+  "generator": "image_gen.imagegen",
+  "inputDimensions": [
+    1254,
+    1254
+  ],
+  "nativeGLBTextureDimensions": [
+    1024,
+    1024
+  ],
+  "outputFolder": "C:/Users/prana/.codex/generated_images/01a1d669-0085-7853-995c-c22963fb22f1",
+  "selections": [
+    {
+      "name": "dj-headphones",
+      "generated": "exec-d9e17a35-bf98-442d-bf7c-f246201892c2.png",
+      "prompt": "Use case: text-localization. This is an EDIT TARGET: a flat 1254 x 1254 base-color UV texture atlas for an existing 3D DJ's headphones, not a poster or rendered object. Change ONLY the existing brand lettering. Replace the large cream XO inside the bottom black circular island with one bold cream M monogram. Replace the tiny X and O logos in the two small worn dark islands at lower left with cream M monograms, each in the same position and size as its old letter. Replace THE WEEKND in the small black rectangular badge at lower right with exact text MONUMENTAL, spelled M O N U M E N T A L, cream condensed uppercase. Preserve EVERY UV island boundary, absolute pixel position, shape, orientation, material shading, wear, the almost-empty grey upper 75 percent, color palette, light texture, and original canvas framing. Do not move, rotate, enlarge, re-pack, duplicate, or crop anything. No new badges, no extra lettering, no mockup, no perspective, no new objects, no transparency. Return the same square flat texture atlas."
+    },
+    {
+      "name": "dj-shirt",
+      "generated": "exec-acc9008a-f728-4145-aa07-5a9b7acb048f.png",
+      "prompt": "Use case: text-localization. Edit target: this exact flat 1254 x 1254 3D clothing base-color UV atlas. Replace ONLY all THE WEEKND lettering with exact text MONUMENTAL (M O N U M E N T A L), using the same white condensed uppercase ink and the same existing wordmark bounds: both the small upper-right white clothing label and the large lower front-chest lettering. Replace the black XO inside the small white circular chest badge with one black M monogram. Preserve every red and white fabric UV island, torn/irregular island edge, black negative space, absolute position, fabric shading, colors, straps and trims exactly. No re-packing, no new islands, no enlargement, no shifted boundaries, no crop, no new scene, no 3D render or mockup. Output the same square flat UV atlas, no transparency."
+    },
+    {
+      "name": "dj-desk",
+      "generated": "exec-cd994540-5d06-47b4-b90b-731a2cf439c0.png",
+      "prompt": "Use case: text-localization. Edit target: the exact flat 1254 x 1254 3D DJ desk/road-case UV texture atlas. Change ONLY XO branding: replace every large white outlined XO sticker with a white outlined M monogram in its same position, rotation, size and worn sticker style. Replace black XO on every small green tape label with a black M, preserving each green label's existing shape/location. Keep all scratched black flight-case panels, silver riveted metal edges, every UV island boundary, dimensions and absolute coordinates, blank areas, wear and grey tape unchanged. Preserve the detailed Pioneer DJ controller and ALL its hardware labels and controls exactly. No new lettering outside original branded spots, no new objects, no rearrangement, no perspective, no cropped edges, no transparency. Same square flat UV atlas."
+    },
+    {
+      "name": "dj-speakers",
+      "generated": "exec-fe844294-fb0c-4f18-9bb7-0ade06928722.png",
+      "prompt": "Use case: text-localization. Edit target: exact flat 1254 x 1254 speaker base-color UV texture atlas for an existing animated 3D scene. Replace ONLY the large white XO logo in the upper-right black UV island with a bold white M monogram, plus small exact condensed uppercase MONUMENTAL beneath the M, fitting INSIDE that same existing black logo island. Replace every small white outlined XO sticker in the bottom black speaker-back panels with a white outlined M monogram of the same sticker footprint and wear. On the sunglasses stickers, replace the X and O in the lenses with M monograms while keeping the glasses drawing and its size/position unchanged. Preserve every metal grille hole, all UV panel boundaries, their absolute pixel positions/orientations, brushed metal strips, padding, black/grey/white palette, astronaut, hand, smiley and all other decorative stickers exactly. No re-packing, no shifted regions, no new scene, no mockup, no transparency. Same square flat UV atlas."
+    },
+    {
+      "name": "contact-boxes",
+      "generated": "exec-441c0b87-a536-40e7-a185-5f641adec503.png",
+      "initialGenerated": "exec-a6079541-f800-497d-8122-0b3630f60b36.png",
+      "prompt": "Use case: text-localization. Edit target: exact flat 1254 x 1254 3D road-case/contact-box base-color UV texture atlas. Change ONLY old XO branding: replace EVERY white outlined XO sticker with a white outlined M monogram, matching that sticker's exact footprint, orientation, white border, wear, and placement. Replace tiny X and O lens letters on the sunglasses sticker with M monograms while preserving the glasses drawing. Keep ALL other image pixels and every UV island boundary/composition as closely identical as possible: the irregular silver/grey/black packing, black box panels, edge hardware, handles, alien-face, astronaut and smiley stickers, seams, highlights, scratches and locations. Do not move, rotate, enlarge, rearrange, duplicate, crop or invent any panels. No additional objects, no mockup, no perspective, no transparency. Return the same square flat UV atlas.",
+      "followup": "Use case: text-localization. Perform a tiny precise follow-up edit on this exact flat 1254 x 1254 UV texture atlas. Preserve all panels, geometry, black and silver regions, every UV edge, material shading, scratches, all stickers and absolute pixel positions. Only correct the two remaining old brand O letters near the middle: the vertically oriented small sunglasses sticker in the center black panel currently has M in its upper lens and O in its lower lens; change that lower lens O to an M matching the upper lens M, while preserving the circular glasses frame. The tiny vertically oriented outlined sticker just to its right at approximately 60 percent of canvas width and 48 percent canvas height currently reads MO; replace its complete MO lettering with a single bold white outlined M monogram in the same small footprint. Keep the five large outlined M stickers, alien stickers, astronauts, all other content and boundaries exactly as they already are. Do not add text, do not add MONUMENTAL words, do not move or change panels, do not recompose, crop, repack, rotate or shift UVs. Same exact square flat atlas, opaque."
+    }
+  ],
+  "unselectedFollowup": {
+    "generated": "exec-13452111-e250-45e9-abdf-442c375ee616.png",
+    "reason": "Selected previous correction to minimize cumulative drift; one circular lens interior remains visually circular without obvious XO branding.",
+    "prompt": "Precise one-letter correction only. This is a flat UV atlas. Look at the small vertically oriented white outline sunglasses at canvas x=645, y=640: they are in the black panel below the central green alien, to the left of the pale grey rectangular handle. The upper sunglass lens contains a small white M. The lower sunglass lens currently contains a small white O. Change the white O glyph INSIDE THE LOWER SUNGLASS LENS to a small white M glyph, exactly matching the upper lens M. Keep the surrounding circular lens frame white outline unchanged. All other pixels, island boundaries, panels, colors, all stickers, scratches and layout should remain unchanged. Do not redraw the whole atlas, do not change any other logos. Retain 1254 x 1254 flat square UV texture."
+  }
+}

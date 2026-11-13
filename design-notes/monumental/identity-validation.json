@@ -1,0 +1,170 @@
+{
+  "hero": {
+    "destination": "assets\\models\\weeknd-neon.glb",
+    "bytes": 58488,
+    "bounds": {
+      "center": [
+        0,
+        -0.0011082515120506287,
+        0
+      ],
+      "size": [
+        0.9449445009231567,
+        0.3307279795408249,
+        0.0034000000450760126
+      ]
+    },
+    "before": {
+      "nodes": [
+        "Neon"
+      ],
+      "meshes": [
+        ""
+      ],
+      "materials": [
+        "Neon"
+      ],
+      "animations": 0,
+      "skins": 0,
+      "sceneExtras": {
+        "hoyoNeonEncaje": {
+          "version": 1,
+          "largo": [
+            1,
+            0,
+            0
+          ],
+          "medio": [
+            0,
+            1,
+            0
+          ],
+          "fino": [
+            0,
+            0,
+            1
+          ],
+          "centro": [
+            0,
+            -0.0011082515120506287,
+            0
+          ],
+          "tamano": [
+            0.9449445009231567,
+            0.3307279795408249,
+            0.0034000000450760126
+          ],
+          "desplazamiento": [
+            0,
+            0,
+            0
+          ],
+          "muestras": 100
+        }
+      }
+    },
+    "after": {
+      "nodes": [
+        "Neon"
+      ],
+      "meshes": [
+        ""
+      ],
+      "materials": [
+        "Neon"
+      ],
+      "animations": 0,
+      "skins": 0,
+      "sceneExtras": {
+        "hoyoNeonEncaje": {
+          "version": 1,
+          "largo": [
+            1,
+            0,
+            0
+          ],
+          "medio": [
+            0,
+            1,
+            0
+          ],
+          "fino": [
+            0,
+            0,
+            1
+          ],
+          "centro": [
+            0,
+            -0.0011082515120506287,
+            0
+          ],
+          "tamano": [
+            0.9449445009231567,
+            0.3307279795408249,
+            0.0034000000450760126
+          ],
+          "desplazamiento": [
+            0,
+            0,
+            0
+          ],
+          "muestras": 100
+        }
+      }
+    }
+  },
+  "contact": {
+    "destination": "_astro\\neon-logo.C8PtHYTL.glb",
+    "bytes": 48640,
+    "bounds": {
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.8880118131637573,
+        1.0006765127182007,
+        0.005400000140070915
+      ]
+    },
+    "before": {
+      "nodes": [
+        "Neon_Logo"
+      ],
+      "meshes": [
+        ""
+      ],
+      "materials": [
+        "Neon_Logo"
+      ],
+      "animations": 0,
+      "skins": 0,
+      "sceneExtras": {}
+    },
+    "after": {
+      "nodes": [
+        "Neon_Logo"
+      ],
+      "meshes": [
+        ""
+      ],
+      "materials": [
+        "Neon_Logo"
+      ],
+      "animations": 0,
+      "skins": 0,
+      "sceneExtras": {}
+    }
+  },
+  "vectorAssets": [
+    "assets/weeknd-wordmark.svg",
+    "assets/branding/dj-logo.svg",
+    "assets/branding/dj-logo.webp",
+    "favicon.svg",
+    "favicon.ico",
+    "apple-touch-icon.png"
+  ],
+  "brand": "MONUMENTAL",
+  "contactDesign": "M monogram with full MONUMENTAL below"
+}

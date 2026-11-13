@@ -2,14 +2,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 
-// Keep the authored source and the existing Sites deployment unchanged. Only
-// this separate static artifact is adapted for a GitHub project-page prefix.
+// Adapt the authored source for either public GitHub project-page address.
 await import('./build.mjs');
 
 const root = path.resolve(import.meta.dirname, '..');
 const target = path.join(root, 'pages-out');
 const marker = path.join(target, '.weeknd-pages-generated');
-const base = process.env.PAGES_BASE_PATH ?? '/the-weeknd-enter-the-night/';
+const base = process.env.PAGES_BASE_PATH ?? '/monumental-experience/';
 const origin = (process.env.PAGES_ORIGIN ?? 'https://global0809.github.io').replace(/\/$/, '');
 if (!/^\/(?:[A-Za-z0-9_-]+\/)+$/.test(base)) throw Error('PAGES_BASE_PATH must be a slash-delimited project path');
 if (new URL(origin).origin !== origin || !origin.startsWith('https://')) throw Error('PAGES_ORIGIN must be an HTTPS origin');
@@ -47,7 +46,7 @@ const normalizers = {
 const navigation = {
   '_astro/component.B8hU0nJt.js':['/galeria','/eventos','/contacto'],
   '_astro/component.BPGvV70V.js':['/cookies'],
-  '_astro/component.C9nxhpZU.js':['/aviso-legal','/cookies','/privacidad'],
+  '_astro/component.C9nxhpZU.js':['/aviso-legal','/cookies','/privacidad','/galeria'],
   '_astro/component.CWSBIz51.js':['/'],
   '_astro/index.astro_astro_type_script_index_0_lang.CK_zLeer.js':['/galeria','/contacto'],
   '_astro/galeria.astro_astro_type_script_index_0_lang.CDg8FcZK.js':['/galeria/${encodeURIComponent(e.id)}'],

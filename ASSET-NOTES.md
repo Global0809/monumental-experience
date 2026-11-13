@@ -1,17 +1,13 @@
-# Asset provenance and adaptation
+# MONUMENTAL asset treatment
 
-The original authored production experience comes from the designer-supplied Hoyo Jerez reference. Its tunnel geometry, animated characters, camera paths, scene installations, shaders, sound effects, layouts, transitions, and interactions are retained.
+The authored production experience comes from the designer-supplied Hoyo Jerez reference. Its tunnel geometry, animated characters, camera paths, scene installations, shaders, sound effects, layouts, transitions and interactions are retained.
 
-The Weeknd artist photographs and covers are sourced from official Universal Music and Apple Music material. The source manifest preserves the URLs and available photography credits. The audio player uses eight official 30-second previews. The decorative screens use silent 16-second excerpts sampled entirely within official Apple Music music-video previews. These are locally served media files, without embedded third-party players.
+The MONUMENTAL adaptation replaces the previous artist identity across the wordmark, three-dimensional lettering, DJ and contact installations, graffiti atlases, decals, collection posters, cover images, sharing artwork and environment screens. Legacy asset filenames and route IDs remain stable for compatibility; names in those paths do not describe the current displayed brand.
 
-Three-dimensional lettering, the header wordmark, DJ sign, release posters, icon, and sharing image use code-authored typography based on the reference's Morganite typeface. The original title and sign dimensions are retained. The models are Draco-compressed, and their node, material, animation, and skin contracts have been checked.
+The eleven archive collections are MONUMENTAL creative studies dated 14 November 2026. They are illustrative work, without invented client results, project history or endorsements. The gallery retains its existing filters, grid controls and lightbox behavior.
 
-The following bitmap illustrations were adapted with the built-in ImageGen tool: the tunnel graffiti atlas, contact graffiti atlas, alien sticker sheet, and branded decal regions on the DJ's clothing/headphones/desk/speakers and contact boxes. Their direction was to preserve the reference's punk spray-paint style, UV layout, materials, and composition while replacing Hoyo and Spanish venue copy with The Weeknd/XO identity and English era motifs. The artist photographs and performance footage are sourced media, rather than generated likenesses.
+The audio source is source/assets/audio/monumental-ambient-mix.mp3: an original 240-second procedural ambient score, divided into eight chapters. It contains no artist recordings. The sixty-second preview is the MONUMENTAL brand film, not a site walkthrough. The legacy walkthrough.mp4 media path is retained to preserve existing links.
 
-The exact saved tunnel-atlas prompt is in `design-notes/tunnel-atlas-prompt.txt`. All final consumed assets are inside `source/`; no runtime asset depends on a generation cache or temporary directory.
+Models retain their original scene contracts so node names, animation bindings, materials and controls can continue to function. Image and media manifests record the consumed sources. Final production assets are served from source/ and do not depend on temporary generation caches.
 
-The full illustrated posters belong to the 3D stands. The Music page uses clean official cover artwork with live captions to prevent overlapping typography.
-
-The My Dear Melancholy archive also contains two full-aspect frames from the official Call Out My Name preview. Their preview timestamps and source URLs are recorded in the image manifest. Packaged portrait and album filenames are mapped explicitly to their official source entries. Video dimensions and byte sizes are verified against the final delivered files.
-
-This is an independent creative concept. Artist names, photography, artwork, and recordings belong to their respective owners.
+No external client destination was supplied. Navigation points to internal Work, Visuals, Connect and brand-film pages.
