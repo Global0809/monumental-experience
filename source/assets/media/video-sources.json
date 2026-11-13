@@ -6,7 +6,7 @@
   "deliverables": [
     {
       "file": "crt-0.mobile.mp4",
-      "bytes": 191294,
+      "bytes": 198597,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -28,7 +28,7 @@
     },
     {
       "file": "crt-0.mp4",
-      "bytes": 276072,
+      "bytes": 286213,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -50,7 +50,7 @@
     },
     {
       "file": "crt-1.mobile.mp4",
-      "bytes": 190876,
+      "bytes": 201245,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -72,7 +72,7 @@
     },
     {
       "file": "crt-1.mp4",
-      "bytes": 276710,
+      "bytes": 288188,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -94,7 +94,7 @@
     },
     {
       "file": "crt-2.mobile.mp4",
-      "bytes": 190331,
+      "bytes": 201015,
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -116,7 +116,7 @@
     },
     {
       "file": "crt-2.mp4",
-      "bytes": 276168,
+      "bytes": 287234,
       "probe": {
         "programs": [],
         "stream_groups": [],
