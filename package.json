@@ -6,6 +6,7 @@
   "description": "An independent cinematic concept for The Weeknd, adapted from the author's Hoyo Jerez experience.",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
     "check": "node scripts/check.mjs && node scripts/check-media-ranges.mjs",
     "dev": "node scripts/serve.mjs"
   }

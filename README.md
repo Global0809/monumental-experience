@@ -4,6 +4,8 @@ An independent creative presentation adapted from the author's Hoyo Jerez websit
 
 ## Run locally
 
+Public GitHub Pages edition: [Open Enter the Night](https://global0809.github.io/the-weeknd-enter-the-night/).
+
 Requires Node.js 20.11 or later. No runtime package installation is needed.
 
 ```sh
@@ -12,6 +14,10 @@ npm run dev
 ```
 
 Open http://127.0.0.1:4175 . Use an HTTP server; opening index.html directly with file:// cannot load JavaScript modules or 3D assets.
+
+## GitHub Pages
+
+Run `npm run build:pages` to produce `pages-out/` for the repository path `/the-weeknd-enter-the-night/`. This deployment build adapts URLs and routing for that path and includes `.nojekyll`. The `gh-pages` branch contains the published static files; Pages serves that branch from its root. To update the public site, rebuild and publish the contents of `pages-out/` to `gh-pages`.
 
 ## Explore
 
