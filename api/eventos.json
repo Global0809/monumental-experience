@@ -1,0 +1,50 @@
+{
+  "fuente": "local",
+  "eventos": [
+    {
+      "id": "after-hours",
+      "nombre": "AFTER DARK",
+      "fecha": "14.11.2026",
+      "fechaLarga": "November 14, 2026",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "CREATIVE STUDY",
+      "descripcion": [
+        "MONUMENTAL creative study"
+      ],
+      "url": "/monumental-experience/galeria/after-hours",
+      "imagen": "/monumental-experience/assets/posters/after-hours.webp",
+      "imagenPagina": "/monumental-experience/assets/albums/after-hours.jpg"
+    },
+    {
+      "id": "dawn-fm",
+      "nombre": "FREQUENCY",
+      "fecha": "14.11.2026",
+      "fechaLarga": "November 14, 2026",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "CREATIVE STUDY",
+      "descripcion": [
+        "MONUMENTAL creative study"
+      ],
+      "url": "/monumental-experience/galeria/dawn-fm",
+      "imagen": "/monumental-experience/assets/posters/dawn-fm.webp",
+      "imagenPagina": "/monumental-experience/assets/albums/dawn-fm.jpg"
+    },
+    {
+      "id": "hurry-up-tomorrow",
+      "nombre": "WORLD",
+      "fecha": "14.11.2026",
+      "fechaLarga": "November 14, 2026",
+      "hora": "",
+      "horaFin": "",
+      "diaSemana": "CREATIVE STUDY",
+      "descripcion": [
+        "MONUMENTAL creative study"
+      ],
+      "url": "/monumental-experience/galeria/hurry-up-tomorrow",
+      "imagen": "/monumental-experience/assets/posters/hurry-up-tomorrow.webp",
+      "imagenPagina": "/monumental-experience/assets/albums/hurry-up-tomorrow.jpg"
+    }
+  ]
+}

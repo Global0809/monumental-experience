@@ -1,0 +1,16 @@
+{
+  "name": "MONUMENTAL · Enter the World",
+  "short_name": "MONUMENTAL",
+  "lang": "en",
+  "start_url": "/monumental-experience/",
+  "display": "standalone",
+  "background_color": "#010101",
+  "theme_color": "#010101",
+  "icons": [
+    {
+      "src": "/monumental-experience/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

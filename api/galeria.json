@@ -1,0 +1,157 @@
+{
+  "fuente": "local",
+  "fiestas": [
+    {
+      "id": "hurry-up-tomorrow",
+      "nombre": "WORLD",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/hurry-up-tomorrow.jpg",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-red.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-side.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-tank.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-tilt.webp"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/hurry-up-tomorrow.jpg",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-red.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-side.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-tank.webp",
+        "/monumental-experience/assets/portraits/hurry-up-tomorrow-tilt.webp"
+      ],
+      "portada": "/monumental-experience/assets/albums/hurry-up-tomorrow.jpg"
+    },
+    {
+      "id": "dawn-fm",
+      "nombre": "FREQUENCY",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/dawn-fm.jpg",
+        "/monumental-experience/assets/portraits/dawn-fm-wide.webp",
+        "/monumental-experience/assets/portraits/the-weeknd.webp"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/dawn-fm.jpg",
+        "/monumental-experience/assets/portraits/dawn-fm-wide.webp",
+        "/monumental-experience/assets/portraits/the-weeknd.webp"
+      ],
+      "portada": "/monumental-experience/assets/albums/dawn-fm.jpg"
+    },
+    {
+      "id": "after-hours",
+      "nombre": "AFTER DARK",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/after-hours.jpg",
+        "/monumental-experience/assets/portraits/after-hours-red.webp",
+        "/monumental-experience/assets/portraits/after-hours-smile.webp"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/after-hours.jpg",
+        "/monumental-experience/assets/portraits/after-hours-red.webp",
+        "/monumental-experience/assets/portraits/after-hours-smile.webp"
+      ],
+      "portada": "/monumental-experience/assets/albums/after-hours.jpg"
+    },
+    {
+      "id": "my-dear-melancholy",
+      "nombre": "CINEMA",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/my-dear-melancholy.jpg",
+        "/monumental-experience/assets/stills/call-out-my-name-blue.webp",
+        "/monumental-experience/assets/stills/call-out-my-name-flock.webp"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/my-dear-melancholy.jpg",
+        "/monumental-experience/assets/stills/call-out-my-name-blue.webp",
+        "/monumental-experience/assets/stills/call-out-my-name-flock.webp"
+      ],
+      "portada": "/monumental-experience/assets/albums/my-dear-melancholy.jpg"
+    },
+    {
+      "id": "starboy",
+      "nombre": "CULTURE",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/starboy.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/starboy.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/starboy.jpg"
+    },
+    {
+      "id": "beauty-behind-the-madness",
+      "nombre": "ORIGIN",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/beauty-behind-the-madness.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/beauty-behind-the-madness.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/beauty-behind-the-madness.jpg"
+    },
+    {
+      "id": "kiss-land",
+      "nombre": "THE PORTAL",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/kiss-land.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/kiss-land.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/kiss-land.jpg"
+    },
+    {
+      "id": "trilogy",
+      "nombre": "TIME MACHINE",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/trilogy.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/trilogy.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/trilogy.jpg"
+    },
+    {
+      "id": "house-of-balloons-original",
+      "nombre": "DREAMSTATE",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/house-of-balloons-original.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/house-of-balloons-original.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/house-of-balloons-original.jpg"
+    },
+    {
+      "id": "thursday-original",
+      "nombre": "KINETIC",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/thursday-original.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/thursday-original.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/thursday-original.jpg"
+    },
+    {
+      "id": "echoes-of-silence-original",
+      "nombre": "HORIZON",
+      "fecha": "2026-11-14",
+      "fotos": [
+        "/monumental-experience/assets/albums/echoes-of-silence-original.jpg"
+      ],
+      "miniaturas": [
+        "/monumental-experience/assets/albums/echoes-of-silence-original.jpg"
+      ],
+      "portada": "/monumental-experience/assets/albums/echoes-of-silence-original.jpg"
+    }
+  ]
+}
