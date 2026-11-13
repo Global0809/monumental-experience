@@ -14,7 +14,7 @@
       ],
       "url": "/monumental-experience/galeria/after-hours",
       "imagen": "/monumental-experience/assets/posters/after-hours.webp",
-      "imagenPagina": "/monumental-experience/assets/albums/after-hours.jpg"
+      "imagenPagina": "/monumental-experience/assets/posters/after-hours.webp"
     },
     {
       "id": "dawn-fm",
@@ -29,7 +29,7 @@
       ],
       "url": "/monumental-experience/galeria/dawn-fm",
       "imagen": "/monumental-experience/assets/posters/dawn-fm.webp",
-      "imagenPagina": "/monumental-experience/assets/albums/dawn-fm.jpg"
+      "imagenPagina": "/monumental-experience/assets/posters/dawn-fm.webp"
     },
     {
       "id": "hurry-up-tomorrow",
@@ -44,7 +44,7 @@
       ],
       "url": "/monumental-experience/galeria/hurry-up-tomorrow",
       "imagen": "/monumental-experience/assets/posters/hurry-up-tomorrow.webp",
-      "imagenPagina": "/monumental-experience/assets/albums/hurry-up-tomorrow.jpg"
+      "imagenPagina": "/monumental-experience/assets/posters/hurry-up-tomorrow.webp"
     }
   ]
 }
